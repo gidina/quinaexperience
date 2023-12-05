@@ -8,4 +8,11 @@ export default {
     extend: {},
   },
   plugins: [],
+  safelist: [
+    'bg-[#F38181]',
+    'bg-[#FCE38A]',
+    'bg-[#C5E898]',
+    'bg-[#95E1D3]',
+    'bg-[#FFCF96]'
+  ]
 }
