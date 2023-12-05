@@ -4,7 +4,6 @@ import { FaRegSave, FaSave } from "react-icons/fa";
 import { AUTO_PLAY_INTERVAL_MS, MAX_NUM, generateRandom } from "./utils";
 import AudioPlayer from "./components/AudioPlayer";
 import namesNumbers from "./numeros";
-// import "./BingoDobleMusical.css";
 
 type DrawedNumbers = number[];
 type MaxNumber = number;
