@@ -67,7 +67,7 @@ const BingoItem = ({ text, drawed }: BingoItem) => {
       //   drawed ? "bg-green-400" : ""
       // }`}
       className={`bg-[antiquewhite] text-4xl rounded-xl p-[55px] ${
-        drawed ? "bg-[#C5E898]" : ""
+        drawed ? "bg-[color:var(--color-tongo)]" : ""
       }`}
     >
       {text}
@@ -213,7 +213,7 @@ const Last5Drawed = ({ drawedNumbers }: LastDraw) => {
           <div key={index} className="bg-slate-500 p-4 rounded-xl flex justify-center items-center w-32 h-32 font-medium" />
         ))}
         {last5.map((num: number, index) => (
-          <div key={index} className="bg-[#C5E898] p-4 rounded-xl flex justify-center items-center w-32 h-32 font-medium">
+          <div key={index} className="bg-[color:var(--color-tongo)] p-4 rounded-xl flex justify-center items-center w-32 h-32 font-medium">
             {num}
           </div>
         ))}
