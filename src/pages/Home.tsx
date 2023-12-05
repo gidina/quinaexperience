@@ -18,7 +18,7 @@ const QuinaLink: FC<QuinaLink> = ({ to, title, icon, color, children }) => {
   return (
     <Link
       to={to}
-      className={`py-32 px-8 rounded-2xl text-8xl	no-underline text-black flex justify-center items-center gap-8 transition-transform hover:scale-105	hover:shadow-xl bg-[${color}]`}
+      className={`py-32 px-8 rounded-2xl text-8xl no-underline text-black flex justify-center items-center gap-8 transition-transform hover:scale-105 hover:shadow-xl bg-[${color}]`}
     >
       <>
         {title} {icon && React.createElement(icon, { className: "h-16 w-16" })}
