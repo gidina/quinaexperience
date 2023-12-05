@@ -129,8 +129,9 @@ const GetDraw = ({
   }
 
   return (
-    <div className="flex gap-4">
+    <form className="flex gap-4" onSubmit={(e) => e.preventDefault()}>
       <input
+        autoFocus
         type="number"
         name="input-draw"
         id="input-draw"
@@ -164,7 +165,7 @@ const GetDraw = ({
         }}
         disabled={drawedNumbers.length === maxNumber}
       />
-    </div>
+    </form>
   );
 };
 
