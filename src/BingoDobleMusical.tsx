@@ -24,6 +24,7 @@ interface GetDraw {
   maxNumber: MaxNumber;
   isManualMode: boolean;
   autoPlay: boolean;
+  disabled?: boolean;
 }
 
 interface SettingsPane {
@@ -112,6 +113,7 @@ const GetDraw = ({
   isManualMode,
   getDraw,
   autoPlay,
+  disabled=false
 }: GetDraw) => {
   const [inputNumber, setInputNumber] = useState("");
 
@@ -123,7 +125,7 @@ const GetDraw = ({
     return (
       <GetDrawButton
         onClick={() => getDraw()}
-        disabled={drawedNumbers.length === maxNumber}
+        disabled={drawedNumbers.length === maxNumber || disabled}
       />
     );
   }
@@ -163,7 +165,7 @@ const GetDraw = ({
           getDraw(inputNumberAsNumber);
           setInputNumber("");
         }}
-        disabled={drawedNumbers.length === maxNumber}
+        disabled={drawedNumbers.length === maxNumber || disabled}
       />
     </form>
   );
@@ -242,6 +244,7 @@ const BingoInfo = ({
         getDraw={getDraw}
         isManualMode={isManualMode}
         autoPlay={autoPlay}
+        disabled={!!song?.songCount && !!song?.currentSong}
       />
       {!!song?.songCount && (
         <AudioPlayer
