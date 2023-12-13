@@ -42,7 +42,7 @@ import file41 from "./41.It_s Raining men.m4a";
 import file42 from "./42.loco.m4a";
 import file43 from "./43.Let me out.m4a";
 import file44 from "./44.sweet caaroline.mp3";
-import file45 from "./45.Sueño su boca.m4a";
+import file45 from "./45.Sueno su boca.m4a";
 import file46 from "./46.You_re the one.m4a";
 import file47 from "./47.Libertad Nil Moliner.m4a";
 import file48 from "./48.Voglio vederti danzare.m4a";
