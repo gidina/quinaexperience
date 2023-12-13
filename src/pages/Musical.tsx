@@ -1,6 +1,6 @@
 import React from "react";
 import BingoDobleMusical from "../BingoDobleMusical";
-import songs from "../musical";
+import songs from "../assets/musical";
 import { PiMusicNotesFill } from "react-icons/pi";
 
 const Musical = () => {
