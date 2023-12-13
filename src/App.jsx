@@ -10,6 +10,7 @@ import Tongo from "./pages/Tongo";
 import Cantada from "./pages/Cantada";
 import Musical from "./pages/Musical";
 import Error from "./pages/Error";
+import Stream from "./pages/Stream";
 import Header from "./components/Header";
 
 const Dashboard = () => {
@@ -53,10 +54,14 @@ const router = createBrowserRouter([
     ],
   },
   {
+    path: "/stream",
+    element: <Stream />,
+  },
+  {
     path: "*",
     element: <Error />,
   },
-]);
+], { basename: "/quinaexperience" });
 
 const App = () => {
   return <RouterProvider router={router} />;
