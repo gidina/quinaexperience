@@ -163,9 +163,9 @@ export default function AudioPlayer({
       <div className="flex flex-col items-center justify-center">
         <div className="text-center mb-1 flex flex-col gap-2.5">
           <p className="text-slate-300 font-bold text-4xl">
-            {currentSong?.title ?? "Title: -"}
+            {currentSong?.title ?? "Títol: -"}
           </p>
-          <p className="text-2xl">{currentSong?.singer ?? "Singer: -"}</p>
+          <p className="text-2xl">{currentSong?.singer ?? "Cantant: -"}</p>
         </div>
         <div className="flex gap-4">
           {currentSong?.video && (
@@ -192,7 +192,8 @@ export default function AudioPlayer({
         <div className="flex items-center gap-4 justify-self-center">
           <IconButton
             onClick={handlePrev}
-            disabled={songIndex === 0 || !onPrev}
+            // disabled={songIndex === 0 || !onPrev}
+            disabled={!onPrev}
             aria-label="go to previous"
             intent="secondary"
           >
@@ -214,7 +215,8 @@ export default function AudioPlayer({
           </IconButton>
           <IconButton
             onClick={handleNext}
-            disabled={songIndex === songCount - 1 || !onNext}
+            // disabled={songIndex === songCount - 1 || !onNext}
+            disabled={!onNext}
             aria-label="go to next"
             intent="secondary"
           >
