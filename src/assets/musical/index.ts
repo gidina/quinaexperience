@@ -76,7 +76,7 @@ import file75 from "./75.madre tierra.mp3";
 import file76 from "./76.Vull petar-ho.mp3";
 import file77 from "./77.El vals del obrero.m4a";
 import file78 from "./78.Himno sevilla.m4a";
-import file79 from "./79.Revolución Sexual.mp3";
+import file79 from "./79.Revolucion Sexual.mp3";
 import file80 from "./80.Carolina.m4a";
 import file81 from "./81.Tenia tanto que darte.m4a";
 import file82 from "./82.Se iluminaba.m4a";
