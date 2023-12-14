@@ -61,7 +61,7 @@ const router = createBrowserRouter([
     path: "*",
     element: <Error />,
   },
-], { basename: "/quinaexperience" });
+], { basename: "/quinaexperience/" });
 
 const App = () => {
   return <RouterProvider router={router} />;
