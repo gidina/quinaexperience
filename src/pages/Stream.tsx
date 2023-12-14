@@ -111,7 +111,7 @@ const Stream = () => {
           <Link to="/" className="rounded-md bg-red-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600">Ves a la Pàgina principal</Link>
         </div>
         <div className="flex gap-4">
-          <video autoPlay ref={videoRef} className="h-screen"></video>
+          <video autoPlay ref={videoRef} className="h-[calc(100vh-200px)]"></video>
           <canvas ref={canvasRef}></canvas>
         </div>
       </div>
