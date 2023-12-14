@@ -252,7 +252,7 @@ const BingoInfo = ({
           currentSong={song?.currentSong}
           songCount={song?.songCount}
           songIndex={song?.songIndex}
-          onNext={song?.onNext}
+          onNext={drawedNumbers.length === maxNumber ? undefined : song?.onNext}
         />
       )}
     </div>
