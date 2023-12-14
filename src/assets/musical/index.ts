@@ -58,36 +58,36 @@ import file57 from "./57.Europe_s Living a celebraton.m4a";
 import file58 from "./58.Cuando Zarpa el amor.m4a";
 import file59 from "./59.Yo quiero bailar.m4a";
 import file60 from "./60.Me muero por conocerte.m4a";
-import file61 from "./56.Dime.m4a";
-import file62 from "./56.Dime.m4a";
-import file63 from "./56.Dime.m4a";
-import file64 from "./56.Dime.m4a";
-import file65 from "./56.Dime.m4a";
-import file66 from "./56.Dime.m4a";
-import file67 from "./56.Dime.m4a";
-import file68 from "./56.Dime.m4a";
-import file69 from "./56.Dime.m4a";
-import file70 from "./56.Dime.m4a";
-import file71 from "./56.Dime.m4a";
-import file72 from "./56.Dime.m4a";
-import file73 from "./56.Dime.m4a";
-import file74 from "./56.Dime.m4a";
-import file75 from "./56.Dime.m4a";
-import file76 from "./56.Dime.m4a";
-import file77 from "./56.Dime.m4a";
-import file78 from "./56.Dime.m4a";
-import file79 from "./56.Dime.m4a";
-import file80 from "./56.Dime.m4a";
-import file81 from "./56.Dime.m4a";
-import file82 from "./56.Dime.m4a";
-import file83 from "./56.Dime.m4a";
-import file84 from "./56.Dime.m4a";
-import file85 from "./56.Dime.m4a";
-import file86 from "./56.Dime.m4a";
-import file87 from "./56.Dime.m4a";
-import file88 from "./56.Dime.m4a";
-import file89 from "./56.Dime.m4a";
-import file90 from "./56.Dime.m4a";
+import file61 from "./61.La bicicleta.m4a";
+import file62 from "./62.La Guspira.m4a";
+import file63 from "./63.Amante bandido.m4a";
+import file64 from "./64.ay mama.mp3";
+import file65 from "./65.la chica yeye.m4a";
+import file66 from "./66.colgando en tus manos.m4a";
+import file67 from "./67.Vivir asi es morir de amor.m4a";
+import file68 from "./68.Asereje.m4a";
+import file69 from "./69.Geordie.m4a";
+import file70 from "./70.La primavera trompetera.m4a";
+import file71 from "./71.Transmets energia.m4a";
+import file72 from "./72.waka waka.m4a";
+import file73 from "./73.Olvidame y pega la vuelta.m4a";
+import file74 from "./74.L_empordà.m4a";
+import file75 from "./75.madre tierra.mp3";
+import file76 from "./76.Vull petar-ho.mp3";
+import file77 from "./77.El vals del obrero.m4a";
+import file78 from "./78.Himno sevilla.m4a";
+import file79 from "./79.Revolución Sexual.mp3";
+import file80 from "./80.Carolina.m4a";
+import file81 from "./81.Tenia tanto que darte.m4a";
+import file82 from "./82.Se iluminaba.m4a";
+import file83 from "./83.Volcans.m4a";
+import file84 from "./84.Chipiron.mp3";
+import file85 from "./85.Magic in the air.m4a";
+import file86 from "./86.y yo sigo aqui.m4a";
+import file87 from "./87.Shake it off.mp3";
+import file88 from "./88.Juramento eterno de sal.m4a";
+import file89 from "./89.Clavado en un bar.m4a";
+import file90 from "./90.La Venda.m4a";
 
 export default [
   { title: "Bomba", singer: "King Africa", src: file1 },
@@ -116,7 +116,7 @@ export default [
   { src: file24, title: "Princesas", singer: "" },
   { src: file25, title: "Nada fue un error", singer: "" },
   { src: file26, title: "Mi gran noche", singer: "" },
-  { src: file27, title: "Mon amour", singer: "" },
+  { src: file27, title: "Mon amour", singer: "Zzoilo, Aitana" },
   { src: file28, title: "Sofia", singer: "" },
   { src: file29, title: "Fiesta Pagana", singer: "" },
   { src: file30, title: "Sube la mano parriba", singer: "" },
@@ -150,34 +150,34 @@ export default [
   { src: file58, title: "Cuando Zarpa el amor", singer: "" },
   { src: file59, title: "Yo quiero bailar", singer: "" },
   { src: file60, title: "Me muero por conocerte", singer: "" },
-  { src: file61, title: "", singer: "" },
-  { src: file62, title: "", singer: "" },
-  { src: file63, title: "", singer: "" },
-  { src: file64, title: "", singer: "" },
-  { src: file65, title: "", singer: "" },
-  { src: file66, title: "", singer: "" },
-  { src: file67, title: "", singer: "" },
-  { src: file68, title: "", singer: "" },
-  { src: file69, title: "", singer: "" },
-  { src: file70, title: "", singer: "" },
-  { src: file71, title: "", singer: "" },
-  { src: file72, title: "", singer: "" },
-  { src: file73, title: "", singer: "" },
-  { src: file74, title: "", singer: "" },
-  { src: file75, title: "", singer: "" },
-  { src: file76, title: "", singer: "" },
-  { src: file77, title: "", singer: "" },
-  { src: file78, title: "", singer: "" },
-  { src: file79, title: "", singer: "" },
-  { src: file80, title: "", singer: "" },
-  { src: file81, title: "", singer: "" },
-  { src: file82, title: "", singer: "" },
-  { src: file83, title: "", singer: "" },
-  { src: file84, title: "", singer: "" },
-  { src: file85, title: "", singer: "" },
-  { src: file86, title: "", singer: "" },
-  { src: file87, title: "", singer: "" },
-  { src: file88, title: "", singer: "" },
-  { src: file89, title: "", singer: "" },
-  { src: file90, title: "", singer: "" },
+  { src: file61, title: "La Bicicleta", singer: "Carlos Vives, Shakira" },
+  { src: file62, title: "La Guspira", singer: "La Pegatina" },
+  { src: file63, title: "Amante bandido", singer: "Miguel Bosé" },
+  { src: file64, title: "Ay mamá", singer: "Rigoberta Bandini" },
+  { src: file65, title: "Chica ye ye", singer: "Conchita Velasco" },
+  { src: file66, title: "Colgando en tus manos", singer: "Carlos Baute" },
+  { src: file67, title: "Vivir así es morir de amor", singer: "Camilo Sesto" },
+  { src: file68, title: "Aserejé", singer: "Las Ketchup" },
+  { src: file69, title: "Geordie", singer: "Gabry Ponte" },
+  { src: file70, title: "La primavera trompetera", singer: "Los Delinqüentes" },
+  { src: file71, title: "Transmets energia", singer: "Buhos" },
+  { src: file72, title: "Waka Waka (This Time For Africa)", singer: "Shakira" },
+  { src: file73, title: "Olvidame y pega la vuelta", singer: "Pimpinela" },
+  { src: file74, title: "L'Empordà", singer: "Sopa de Cabra" },
+  { src: file75, title: "Madre Tierra", singer: "Chayanne" },
+  { src: file76, title: "Petar-ho", singer: "Oques Grasses" },
+  { src: file77, title: "El vals del obrero", singer: "Ska-P" },
+  { src: file78, title: "Himno Sevilla FC", singer: "El Arrebato" },
+  { src: file79, title: "La Revolución Sexual", singer: "La casa azul" },
+  { src: file80, title: "Carolina", singer: "M-Clan" },
+  { src: file81, title: "Tenia Tanto Que Darte", singer: "Nena Daconte" },
+  { src: file82, title: "Se Iluminaba", singer: "Fred De Palma, Ana Mena" },
+  { src: file83, title: "Volcans", singer: "Buhos" },
+  { src: file84, title: "Todos los días sale el sol", singer: "Bongo Botrako" },
+  { src: file85, title: "Magic In The Air", singer: "Magic System ft. Chawki" },
+  { src: file86, title: "Y Yo Sigo Aqui", singer: "Paulina Rubio" },
+  { src: file87, title: "Shake It Off", singer: "Taylor Swift" },
+  { src: file88, title: "Juramento eterno de sal", singer: "Álvaro de Luna" },
+  { src: file89, title: "Clavado En Un Bar", singer: "Maná" },
+  { src: file90, title: "La venda", singer: "Miki Núñez" },
 ];
