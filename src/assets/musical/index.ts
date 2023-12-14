@@ -71,7 +71,7 @@ import file70 from "./70.La primavera trompetera.m4a";
 import file71 from "./71.Transmets energia.m4a";
 import file72 from "./72.waka waka.m4a";
 import file73 from "./73.Olvidame y pega la vuelta.m4a";
-import file74 from "./74.L_empordà.m4a";
+import file74 from "./74.L_emporda.m4a";
 import file75 from "./75.madre tierra.mp3";
 import file76 from "./76.Vull petar-ho.mp3";
 import file77 from "./77.El vals del obrero.m4a";
