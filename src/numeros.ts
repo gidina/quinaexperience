@@ -25,7 +25,7 @@ const namesNumbers = [
   "Sant Joan",
   "Fum, fum, fum!",
   "Sant Esteve",
-  "La mare de Dés de Montserrat",
+  "La mare de Déu de Montserrat",
   "Els sants innocents",
   "El tramvia",
   "Trientra bé",
