@@ -1,4 +1,4 @@
-import React, { FC, ReactElement } from "react";
+import React, { FC } from "react";
 import { Link } from "react-router-dom";
 import { MdMovieCreation } from "react-icons/md";
 import { PiMusicNotesFill } from "react-icons/pi";
@@ -29,7 +29,7 @@ const QuinaLink: FC<QuinaLink> = ({ to, title, icon, bgColor }) => {
 
 const Home = () => {
   return (
-    <div className="home grid grid-cols-2 py-16 gap-16">
+    <div className="home grid grid-cols-2 py-6 gap-8">
       <QuinaLink
         to="hollywood"
         title="Hollywood"
