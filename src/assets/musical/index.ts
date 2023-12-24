@@ -292,22 +292,23 @@ export default [
   image:
     "https://e00-elmundo.uecdn.es/elmundo/videos/2011/09/19/barcelona/1316446525_extras_video_2.jpg", },
   { src: file85, title: "Magic In The Air", singer: "Magic System ft. Chawki", video:
-    "https://www.youtube.com/embed/BAkqJT_sMKQ?si=WwhHBudOSb4-xH8N&amp;controls=0&amp;start=29",
+    "https://www.youtube.com/embed/BAkqJT_sMKQ?autoplay=1&mute=1&si=WwhHBudOSb4-xH8N&amp;controls=0&amp;start=29",
   },
   { src: file86, title: "Lemon tree", singer: "Fool's Garden", video:
-    "https://www.youtube.com/embed/wCQfkEkePx8?si=ZNAszRde0NJZjVqW&amp;controls=0&amp;start=54",
+    "https://www.youtube.com/embed/wCQfkEkePx8?autoplay=1&mute=1&si=ZNAszRde0NJZjVqW&amp;controls=0&amp;start=54",
   },
   { src: file87, title: "Solo se vive una vez", singer: "Azucar Moreno", video:
-    "https://www.youtube.com/embed/LxrUkFQHYpg?si=Sn20R__-i-yTgEXh&amp;controls=0&amp;start=49",
+    "https://www.youtube.com/embed/LxrUkFQHYpg?autoplay=1&mute=1&si=Sn20R__-i-yTgEXh&amp;controls=0&amp;start=49",
   },
   { src: file88, title: "Gimme! Gimme! Gimme!", singer: "ABBA", video:
-    "https://www.youtube.com/embed/XEjLoHdbVeE?si=uQ6-SeLQBTqfaX59&amp;controls=0&amp;start=69"
+    "https://www.youtube.com/embed/XEjLoHdbVeE?autoplay=1&mute=1&si=uQ6-SeLQBTqfaX59&amp;controls=0&amp;start=69"
   },
   { src: file89, title: "Sarà perchè ti amo", singer: "Ricchi e poveri", video:
-    "https://www.youtube.com/embed/Nn1IeHL5DHY?si=fZkYtMRfnBxH_GJt&amp;controls=0&amp;start=81"
+    "https://www.youtube.com/embed/Nn1IeHL5DHY?autoplay=1&mute=1&si=fZkYtMRfnBxH_GJt&amp;controls=0&amp;start=81"
   },
   { src: file90, title: "La venda", singer: "Miki Núñez", video:
-    "https://www.youtube.com/embed/eWEFU2c3tBI?si=WXEKoYS5VNLYCHQA&amp;controls=0&amp;start=48"
+    "https://www.youtube.com/embed/eWEFU2c3tBI?autoplay=1&mute=1&si=WXEKoYS5VNLYCHQA&amp;controls=0&amp;start=48"
   },
 ];
+
 
