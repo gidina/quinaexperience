@@ -1,15 +1,16 @@
 import React from "react";
-import BingoDobleMusical from "../BingoDobleMusical";
-import songs from "../assets/hollywood";
 import { MdMovieCreation } from "react-icons/md";
+import songs from "../assets/hollywood";
+import Bingo from "../components/Bingo";
+import QuinaDetailTitle from "../components/QuinaDetailTitle";
 
 const Hollywood = () => {
   return (
-    <div>
-      <h2 className="absolute right-16 top-36 text-4xl font-semibold flex gap-4">
+    <div className="w-full h-full flex m-auto">
+      <QuinaDetailTitle>
         Quina Hollywood <MdMovieCreation />
-      </h2>
-      <BingoDobleMusical songs={songs} maxNumber={70} />
+      </QuinaDetailTitle>
+      <Bingo songs={songs} maxNumber={70} awards={["Quina"]} />
     </div>
   );
 };
