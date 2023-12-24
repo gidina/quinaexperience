@@ -15,11 +15,11 @@ import Header from "./components/Header";
 
 const Dashboard = () => {
   return (
-    <>
+    <div className="h-full grid auto-rows-min">
       <Header />
       <Outlet />
       {/* <div>Footer</div> */}
-    </>
+    </div>
   );
 };
 

@@ -1,4 +1,4 @@
-import React, { FC, ReactElement } from "react";
+import React, { FC } from "react";
 import { Link } from "react-router-dom";
 import { MdMovieCreation } from "react-icons/md";
 import { PiMusicNotesFill } from "react-icons/pi";
@@ -18,7 +18,7 @@ const QuinaLink: FC<QuinaLink> = ({ to, title, icon, bgColor }) => {
   return (
     <Link
       to={to}
-      className={`py-32 px-8 rounded-2xl text-8xl no-underline text-black flex justify-center items-center gap-8 transition-transform hover:scale-105 hover:shadow-xl ${bgColor}`}
+      className={`px-16 py-32 rounded-2xl text-7xl no-underline text-black flex justify-center items-center gap-8 transition-transform hover:scale-105 hover:shadow-xl ${bgColor}`}
     >
       <>
         {title} {icon && React.createElement(icon, { className: "h-16 w-16" })}
@@ -29,7 +29,7 @@ const QuinaLink: FC<QuinaLink> = ({ to, title, icon, bgColor }) => {
 
 const Home = () => {
   return (
-    <div className="home grid grid-cols-2 py-16 gap-16">
+    <div className="home grid grid-cols-2 py-6 gap-8">
       <QuinaLink
         to="hollywood"
         title="Hollywood"

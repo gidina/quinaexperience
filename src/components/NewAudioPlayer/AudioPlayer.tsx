@@ -11,6 +11,7 @@ import { CgSpinner } from "react-icons/cg";
 import IconButton from "./IconButton";
 import AudioProgressBar from "./AudioProgressBar";
 import VolumeInput from "./VolumeInput";
+import christmasBackground from "../../assets/christmas-rock-bg.jpg";
 
 type Song = {
   title: string;
@@ -20,16 +21,48 @@ type Song = {
   image?: string;
 };
 
-function formatDurationDisplay(duration: number) {
-  const min = Math.floor(duration / 60);
-  const sec = Math.floor(duration - min * 60);
+const AudioCoverOrVideo = ({ song }: { song?: Song }) => {
+  if (song?.video) {
+    return (
+      <iframe
+        // width="1069"
+        // height="384"
+        src={song?.video}
+        // src="https://www.youtube.com/embed/vXtJkDHEAAc?autoplay=1&mute=1&si=MLyFwfcHCT5oP78G&amp;controls=0&amp;start=53"
+        title="YouTube video player"
+        // frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        // className="object-contain w-full m-auto overflow-hidden"
+        className="max-h-full w-full h-full"
+        allowFullScreen
+      ></iframe>
+    );
+  }
 
-  const formatted = [min, sec].map((n) => (n < 10 ? "0" + n : n)).join(":");
+  if (song?.image) {
+    return (
+      // <div className="bg-black">
+        <img
+          // className="object-contain h-96 w-[1069px]"
+          // className="object-contain w-full m-auto overflow-hidden"
+          className="max-h-full w-full object-cover"
+          src={song?.image}
+          alt={song?.title}
+        />
+      // </div>
+    );
+  }
 
-  return formatted;
-}
+  return (
+    <img
+      src={christmasBackground}
+      // className="object-cover w-full m-auto overflow-hidden"
+      className="max-h-full w-full object-cover"
+    />
+  );
+};
 
-interface AudioPlayerProps {
+interface AudioControlsProps {
   currentSong?: Song;
   songIndex: number;
   songCount: number;
@@ -37,24 +70,21 @@ interface AudioPlayerProps {
   onPrev?: () => void;
 }
 
-export default function AudioPlayer({
+const AudioControls = ({
   currentSong,
-  songCount,
   songIndex,
-  onNext,
+  songCount,
   onPrev,
-}: AudioPlayerProps) {
+  onNext,
+}: AudioControlsProps) => {
   const audioRef = React.useRef<HTMLAudioElement | null>(null);
 
   const [isReady, setIsReady] = React.useState(false);
   const [duration, setDuration] = React.useState(0);
-  const [currrentProgress, setCurrrentProgress] = React.useState(0);
+  const [currentProgress, setCurrentProgress] = React.useState(0);
   const [buffered, setBuffered] = React.useState(0);
   const [volume, setVolume] = React.useState(0.2);
   const [isPlaying, setIsPlaying] = React.useState(false);
-
-  const durationDisplay = formatDurationDisplay(duration);
-  const elapsedDisplay = formatDurationDisplay(currrentProgress);
 
   React.useEffect(() => {
     audioRef.current?.pause();
@@ -124,7 +154,7 @@ export default function AudioPlayer({
   };
 
   return (
-    <div className="bg-slate-900 text-slate-400 p-8 relative">
+    <div>
       {currentSong && (
         <audio
           ref={audioRef}
@@ -138,7 +168,7 @@ export default function AudioPlayer({
             setIsReady(true);
           }}
           onTimeUpdate={(e) => {
-            setCurrrentProgress(e.currentTarget.currentTime);
+            setCurrentProgress(e.currentTarget.currentTime);
             handleBufferProgress(e);
           }}
           onProgress={handleBufferProgress}
@@ -147,48 +177,18 @@ export default function AudioPlayer({
           <source type="audio/mpeg" src={currentSong.src} />
         </audio>
       )}
-      <AudioProgressBar
-        duration={duration}
-        currentProgress={currrentProgress}
-        buffered={buffered}
-        onChange={(e) => {
-          if (!audioRef.current) return;
-
-          audioRef.current.currentTime = e.currentTarget.valueAsNumber;
-
-          setCurrrentProgress(e.currentTarget.valueAsNumber);
-        }}
-      />
-
-      <div className="flex flex-col items-center justify-center">
-        <div className="text-center mb-1 flex flex-col gap-2.5">
-          <p className="text-slate-300 font-bold text-4xl">
-            {currentSong?.title ?? "Títol: -"}
-          </p>
-          <p className="text-2xl">{currentSong?.singer ?? "Cantant: -"}</p>
+      <div className="grid grid-rows-3 items-center">
+        <div className="flex gap-3 items-center justify-self-end">
+          <IconButton
+            intent="secondary"
+            size="sm"
+            onClick={handleMuteUnmute}
+            aria-label={volume === 0 ? "unmute" : "mute"}
+          >
+            {volume === 0 ? <MdVolumeOff size={20} /> : <MdVolumeUp size={20} />}
+          </IconButton>
+          <VolumeInput volume={volume} onVolumeChange={handleVolumeChange} />
         </div>
-        <div className="flex gap-4">
-          {currentSong?.video && (
-            <iframe
-              width="560"
-              height="315"
-              src={currentSong?.video}
-              // src="https://www.youtube.com/embed/vXtJkDHEAAc?autoplay=1&mute=1&si=MLyFwfcHCT5oP78G&amp;controls=0&amp;start=53"
-              title="YouTube video player"
-              // frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-          )}
-          {currentSong?.image && (
-            <img src={currentSong?.image} alt={currentSong?.title} />
-          )}
-        </div>
-      </div>
-      <div className="grid grid-cols-3 items-center mt-4">
-        <span className="text-2xl">
-          {elapsedDisplay} / {durationDisplay}
-        </span>
         <div className="flex items-center gap-4 justify-self-center">
           <IconButton
             onClick={handlePrev}
@@ -223,23 +223,55 @@ export default function AudioPlayer({
             <MdSkipNext size={24} />
           </IconButton>
         </div>
+        <AudioProgressBar
+          duration={duration}
+          currentProgress={currentProgress}
+          buffered={buffered}
+          onChange={(e) => {
+            if (!audioRef.current) return;
 
-        <div className="flex gap-3 items-center justify-self-end">
-          <IconButton
-            intent="secondary"
-            size="sm"
-            onClick={handleMuteUnmute}
-            aria-label={volume === 0 ? "unmute" : "mute"}
-          >
-            {volume === 0 ? (
-              <MdVolumeOff size={20} />
-            ) : (
-              <MdVolumeUp size={20} />
-            )}
-          </IconButton>
-          <VolumeInput volume={volume} onVolumeChange={handleVolumeChange} />
-        </div>
+            audioRef.current.currentTime = e.currentTarget.valueAsNumber;
+            setCurrentProgress(e.currentTarget.valueAsNumber);
+          }}
+        />
       </div>
     </div>
   );
+};
+
+interface AudioPlayerProps {
+  currentSong?: Song;
+  songIndex: number;
+  songCount: number;
+  onNext?: () => void;
+  onPrev?: () => void;
 }
+
+const AudioPlayer = ({
+  currentSong,
+  songCount,
+  songIndex,
+  onNext,
+  onPrev,
+}: AudioPlayerProps) => {
+  return (
+    <div className="grid grid-rows-[minmax(0,_1fr)_auto_auto] gap-4">
+      <AudioCoverOrVideo song={currentSong} />
+      <div className="flex flex-col gap-2.5">
+        <p className="text-slate-300 font-bold text-4xl">
+          {currentSong?.title ? currentSong?.title : "Títol: -"}
+        </p>
+        <p className="text-2xl">{currentSong?.singer ? currentSong?.singer : "Cantant: -"}</p>
+      </div>
+      <AudioControls
+        onPrev={onPrev}
+        currentSong={currentSong}
+        onNext={onNext}
+        songIndex={songIndex}
+        songCount={songCount}
+      />
+    </div>
+  );
+}
+
+export default AudioPlayer;
