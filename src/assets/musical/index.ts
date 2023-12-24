@@ -87,7 +87,7 @@ import file86 from "./86.Lemon Tree.mp3";
 import file87 from "./87.Solo Se vive una vez.mp3";
 import file88 from "./88.Gimme Gimme.mp3";
 import file89 from "./89.Sere perche ti amo.mp3";
-import file90 from "./90.La Venda.mp3";
+import file90 from "./90.La venda.mp3";
 
 export default [
   { title: "Bomba", singer: "King Africa", src: file1, video:
