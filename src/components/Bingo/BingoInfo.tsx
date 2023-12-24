@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import AudioPlayer from "../AudioPlayer";
 import NewAudioPlayer from "../NewAudioPlayer";
 import SettingsPane from "./SettingsPane";
 import LastDraw from "./LastDraw";
