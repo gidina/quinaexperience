@@ -4,11 +4,11 @@ import uuhquexunguLogo from "/uuhquexungu-logo.png";
 
 const Header = () => {
   return (
-    <div className="flex items-center gap-12 py-24">
+    <div className="flex items-center gap-12 py-8">
       <Link to="/">
-        <img src={uuhquexunguLogo} alt="Uuhquexungu logotip" className="h-32 transition-transform hover:scale-125 hover:cursor-pointer" />
+        <img src={uuhquexunguLogo} alt="Uuhquexungu logotip" className="h-24 transition-transform hover:scale-125 hover:cursor-pointer" />
       </Link>
-      <h1 className="text-8xl">Uuhquinaexperience</h1>
+      <h1 className="text-6xl">Uuhquinaexperience</h1>
     </div>
   );
 };
