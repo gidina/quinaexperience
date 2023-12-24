@@ -1,15 +1,16 @@
 import React from "react";
-import BingoDobleMusical from "../BingoDobleMusical";
-import songs from "../assets/musical";
 import { PiMusicNotesFill } from "react-icons/pi";
+import songs from "../assets/musical";
+import Bingo from "../components/Bingo";
+import QuinaDetailTitle from "../components/QuinaDetailTitle";
 
 const Musical = () => {
   return (
-    <div>
-      <h2 className="absolute right-16 top-36 text-4xl font-semibold flex gap-4">
+    <div className="w-full h-full flex m-auto">
+      <QuinaDetailTitle>
         Quina Musical <PiMusicNotesFill />
-      </h2>
-      <BingoDobleMusical songs={songs} />
+      </QuinaDetailTitle>
+      <Bingo songs={songs} awards={["Quina"]} />
     </div>
   );
 };
