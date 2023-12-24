@@ -20,7 +20,7 @@ import file19 from "./19.Tobogan.mp3";
 import file20 from "./20.Mienteme.m4a";
 import file21 from "./21.Un beso y una flor.m4a";
 import file22 from "./22.Como te atreves a volver.m4a";
-import file23 from "./23.La Preso del rey de frança.mp3";
+import file23 from "./23.La Preso del rey de franca.mp3";
 import file24 from "./24.Princesas.m4a";
 import file25 from "./25.All for christmas.mp3";
 import file26 from "./26.Mi gran noche.m4a";
