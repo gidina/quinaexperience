@@ -169,181 +169,181 @@ export default [
     src: file16,
     title: "Despacito",
     singer: "Luis Fonsi ft. Daddy Yankee", 
-    video: "https://www.youtube.com/embed/kJQP7kiw5Fk?si=2nQtA4l9B63LGPoJ&amp;start=70"
+    video: "https://www.youtube.com/embed/kJQP7kiw5Fk?autoplay=1&mute=1&si=2nQtA4l9B63LGPoJ&amp;start=70"
   },
   {
     src: file17,
     title: "Caminando Por La Vida",
     singer: "Melendi",
-    video: "https://www.youtube.com/embed/eznXJEjvHbk?si=UNsh9f58QIO-ujzE&amp;start=26"
+    video: "https://www.youtube.com/embed/eznXJEjvHbk?autoplay=1&mute=1&si=UNsh9f58QIO-ujzE&amp;start=26"
   },
   {
     src: file18,
     title: "Olívia",
     singer: "The Tyets",
-    video: "https://www.youtube.com/embed/G3rql0y9Sv8?si=MeRfVLZ5A9LLZ52M&amp;start=5"
+    video: "https://www.youtube.com/embed/G3rql0y9Sv8?autoplay=1&mute=1&si=MeRfVLZ5A9LLZ52M&amp;start=5"
   },
   {
     src: file19,
     title: "Tobogan",
     singer: "Zoo",
-    video: "https://www.youtube.com/embed/Es4u6GrV7hw?si=9oaylOHe0Uo6y-16&amp;start=64"
+    video: "https://www.youtube.com/embed/Es4u6GrV7hw?autoplay=1&mute=1&si=9oaylOHe0Uo6y-16&amp;start=64"
   },
   {
     src: file20,
     title: "Miénteme",
     singer: "David Bisbal",
-    video: "https://www.youtube.com/embed/ghNQr9iQLf4?si=vpS_D1SOSBe3EHqD&amp;start=44"
+    video: "https://www.youtube.com/embed/ghNQr9iQLf4?autoplay=1&mute=1&si=vpS_D1SOSBe3EHqD&amp;start=44"
   },
   {
     src: file21,
     title: "Un Beso Y Una Flor",
     singer: "Nino Bravo",
-    video: "https://www.youtube.com/embed/maEVfX9zRIE?si=nq_uzR5g6H4Zp70O&amp;start=153"
+    video: "https://www.youtube.com/embed/maEVfX9zRIE?autoplay=1&mute=1&si=nq_uzR5g6H4Zp70O&amp;start=153"
   },
   {
     src: file22,
     title: "Cómo Te Atreves",
     singer: "Morat",
-    video: "https://www.youtube.com/embed/_gm5piKnrS4?si=qmn3DtPNKAW2qTOB&amp;start=149"
+    video: "https://www.youtube.com/embed/_gm5piKnrS4?autoplay=1&mute=1&si=qmn3DtPNKAW2qTOB&amp;start=149"
   },
   {
     src: file23,
     title: "La Presó del Rei de França",
     singer: "A Sound of Thunder (Dharma)",
-    video: "https://www.youtube.com/embed/P9iJt94zvXM?si=eACWv-qEvxM2BAbr&amp;start=75"
+    video: "https://www.youtube.com/embed/P9iJt94zvXM?autoplay=1&mute=1&si=eACWv-qEvxM2BAbr&amp;start=75"
   },
   {
     src: file24,
     title: "Enamorado de La Moda Juvenil",
     singer: "Radio Futura",
-    video: "https://www.youtube.com/embed/nQINHtltzcw?si=6hOLMeYhYwrY9vhR&amp;start=43"
+    video: "https://www.youtube.com/embed/nQINHtltzcw?autoplay=1&mute=1&si=6hOLMeYhYwrY9vhR&amp;start=43"
   },
   {
     src: file25,
     title: "All I Want For Christmas Is You",
     singer: "Mariah Carey",
-    video: "https://www.youtube.com/embed/aAkMkVFwAoo?si=BxruB8JeY0EigwMQ&amp;start=59"
+    video: "https://www.youtube.com/embed/aAkMkVFwAoo?autoplay=1&mute=1&si=BxruB8JeY0EigwMQ&amp;start=59"
   },
   {
     src: file26,
     title: "Mi Gran Noche",
     singer: "Raphael",
-    video: "https://www.youtube.com/embed/GhIs2AyODMA?si=PO8sz9_47Wcrv0D6&amp;start=25"
+    video: "https://www.youtube.com/embed/GhIs2AyODMA?autoplay=1&mute=1&si=PO8sz9_47Wcrv0D6&amp;start=25"
   },
   {
     src: file27,
     title: "Mon amour",
     singer: "Zzoilo, Aitana",
-    video: "https://www.youtube.com/embed/V3FAVbrc598?si=8v1EZOsWCZGN4mVj&amp;start=67"
+    video: "https://www.youtube.com/embed/V3FAVbrc598?autoplay=1&mute=1&si=8v1EZOsWCZGN4mVj&amp;start=67"
   },
   {
     src: file28,
     title: "Matchday",
     singer: "Mon DJ",
-    video: "https://www.youtube.com/embed/WeUlmQPUKSE?si=5gzvWz-kHuMyMXoo&amp;start=11"
+    video: "https://www.youtube.com/embed/WeUlmQPUKSE?autoplay=1&mute=1&si=5gzvWz-kHuMyMXoo&amp;start=11"
   },
   {
     src: file29,
     title: "Fiesta Pagana",
     singer: "Mägo de Oz",
-    video: "https://www.youtube.com/embed/Uf74L-Sxh0E?si=0JPmlq641MDO_Ycu&amp;start=130"
+    video: "https://www.youtube.com/embed/Uf74L-Sxh0E?autoplay=1&mute=1&si=0JPmlq641MDO_Ycu&amp;start=130"
   },
   {
     src: file30,
     title: "Echa Pa' Lla",
     singer: "Pitbull ft. Papayo",
-    video: "https://www.youtube.com/embed/sjzb5gxaI5Q?si=P0lnAVvo2sIYTZSP&amp;start=10"
+    video: "https://www.youtube.com/embed/sjzb5gxaI5Q?autoplay=1&mute=1&si=P0lnAVvo2sIYTZSP&amp;start=10"
   },
   {
     src: file31,
     title: "Danza Kuduro",
     singer: "Don Omar ft. Lucenzo",
-    video: "https://www.youtube.com/embed/7zp1TbLFPp8?si=hN8oMUzljBA8Che4&amp;start=50"
+    video: "https://www.youtube.com/embed/7zp1TbLFPp8?autoplay=1&mute=1&si=hN8oMUzljBA8Che4&amp;start=50"
   },
   {
     src: file32,
     title: "Suerte (Whenever, Wherever)",
     singer: "Shakira",
-    video: "https://www.youtube.com/embed/a8Rwz6zBJSE?si=NbuCENo-MZ1YZEvw&amp;start=35"
+    video: "https://www.youtube.com/embed/a8Rwz6zBJSE?autoplay=1&mute=1&si=NbuCENo-MZ1YZEvw&amp;start=35"
   },
   {
     src: file33,
     title: "Highway to Hell",
     singer: "AC/DC",
-    video: "https://www.youtube.com/embed/l482T0yNkeo?si=zi5hn8gTPmOu3trU&amp;start=28"
+    video: "https://www.youtube.com/embed/l482T0yNkeo?autoplay=1&mute=1&si=zi5hn8gTPmOu3trU&amp;start=28"
   },
   {
     src: file34,
     title: "Barbie Girl",
     singer: "Aqua",
-    video: "https://www.youtube.com/embed/ZyhrYis509A?si=uriqO0p27WQ1TAtC&amp;start=8"
+    video: "https://www.youtube.com/embed/ZyhrYis509A?autoplay=1&mute=1&si=uriqO0p27WQ1TAtC&amp;start=8"
   },
   {
     src: file35,
     title: "It's My Life",
     singer: "Bon Jovi",
-    video: "https://www.youtube.com/embed/vx2u5uUu3DE?si=DExgCIG8sGzFaUao&amp;start=53"
+    video: "https://www.youtube.com/embed/vx2u5uUu3DE?autoplay=1&mute=1&si=DExgCIG8sGzFaUao&amp;start=53"
   },
   {
     src: file36,
     title: "Video Killed The Radio Star",
     singer: "The Buggles",
-    video: "https://www.youtube.com/embed/jjz23Q92A4s?si=DIQK_oT5AgdSYi3p&amp;start=69"
+    video: "https://www.youtube.com/embed/jjz23Q92A4s?autoplay=1&mute=1&si=DIQK_oT5AgdSYi3p&amp;start=69"
   },
   {
     src: file37,
     title: "Basket Case",
     singer: "Green Day",
-    video: "https://www.youtube.com/embed/NUTGr5t3MoY?si=TPqOKILYMgjjU4gH&amp;start=15"
+    video: "https://www.youtube.com/embed/NUTGr5t3MoY?autoplay=1&mute=1&si=TPqOKILYMgjjU4gH&amp;start=15"
   },
   {
     src: file38,
     title: "Don't Stop Me Now",
     singer: "Queen",
-    video: "https://www.youtube.com/embed/HgzGwKwLmgM?si=oq0fgJuchK8wb6Wj&amp;start=26"
+    video: "https://www.youtube.com/embed/HgzGwKwLmgM?autoplay=1&mute=1&si=oq0fgJuchK8wb6Wj&amp;start=26"
   },
   {
     src: file39,
     title: "Wannabe",
     singer: "Spice Girls",
-    video: "https://www.youtube.com/embed/gJLIiF15wjQ?si=Fj0FavZw_mNzBjK9&amp;start=49"
+    video: "https://www.youtube.com/embed/gJLIiF15wjQ?autoplay=1&mute=1&si=Fj0FavZw_mNzBjK9&amp;start=49"
   },
   {
     src: file40,
     title: "Ni tú ni nadie",
     singer: "Alaska y Dinarama",
-    video: "https://www.youtube.com/embed/sH5ROBxWZyw?si=EP8LVB_2V4OTYniD&amp;start=45"
+    video: "https://www.youtube.com/embed/sH5ROBxWZyw?autoplay=1&mute=1&si=EP8LVB_2V4OTYniD&amp;start=45"
   },
   {
     src: file41,
     title: "It's Raining Men",
     singer: "Geri Halliwell",
-    video: "https://www.youtube.com/embed/qqXUpe3jlkA?si=AIll4Ss5Ifq8CfxW&amp;start=136"
+    video: "https://www.youtube.com/embed/qqXUpe3jlkA?autoplay=1&mute=1&si=AIll4Ss5Ifq8CfxW&amp;start=136"
   },
   {
     src: file42,
     title: "A Quién Le Importa",
     singer: "Alaska y Dinarama",
-    video: "https://www.youtube.com/embed/2uQhdDtdXg0?si=uHee0nrBb1jYXy2T&amp;start=50"
+    video: "https://www.youtube.com/embed/2uQhdDtdXg0?autoplay=1&mute=1&si=uHee0nrBb1jYXy2T&amp;start=50"
   },
   {
     src: file43,
     title: "Let me out",
     singer: "Dover",
-    video: "https://www.youtube.com/embed/DAznFZc67bM?si=B6ADlqUyKFiMznuX&amp;start=46"
+    video: "https://www.youtube.com/embed/DAznFZc67bM?autoplay=1&mute=1&si=B6ADlqUyKFiMznuX&amp;start=46"
   },
   {
     src: file44,
     title: "Sweet Caroline",
     singer: "Neil Diamond",
-    video: "https://www.youtube.com/embed/wuWuFGFZ_PY?si=IkayJILrRhg3xqQT&amp;start=37"
+    video: "https://www.youtube.com/embed/wuWuFGFZ_PY?autoplay=1&mute=1&si=IkayJILrRhg3xqQT&amp;start=37"
   },
   {
     src: file45,
     title: "Sueño su boca",
     singer: "Raúl",
-    video: "https://www.youtube.com/embed/zvj1Lv9mVKw?si=iBDmxQLV4GEJ6tFU&amp;start=46"
+    video: "https://www.youtube.com/embed/zvj1Lv9mVKw?autoplay=1&mute=1&si=iBDmxQLV4GEJ6tFU&amp;start=46"
   },
   {
     src: file46,
@@ -355,7 +355,7 @@ export default [
     src: file47,
     title: "Drunken Lullabies",
     singer: "Flogging Molly",
-    video: "https://www.youtube.com/embed/89NjEeHku8o?si=jRfqn41PTvHltv-V&amp;start=23"
+    video: "https://www.youtube.com/embed/89NjEeHku8o?autoplay=1&mute=1&si=jRfqn41PTvHltv-V&amp;start=23"
   },
   {
     src: file48,
@@ -379,13 +379,13 @@ export default [
     src: file51,
     title: "El principio de algo",
     singer: "La La Love You & Samuraï",
-    video: "https://www.youtube.com/embed/XH9jnG1Ylwc?si=_VBD7DIG6CAp-4iF&amp;start=21"
+    video: "https://www.youtube.com/embed/XH9jnG1Ylwc?autoplay=1&mute=1&si=_VBD7DIG6CAp-4iF&amp;start=21"
   },
   {
     src: file52,
     title: "Macarena",
     singer: "Los del Río",
-    video: "https://www.youtube.com/embed/zWaymcVmJ-A?si=xiCUKuiMNF4RAxRf&amp;start=27"
+    video: "https://www.youtube.com/embed/zWaymcVmJ-A?autoplay=1&mute=1&si=xiCUKuiMNF4RAxRf&amp;start=27"
   },
   {
     src: file53,
