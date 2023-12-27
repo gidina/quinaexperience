@@ -70,74 +70,485 @@ import file69 from "./69.Los Hombres de Paco.mp3";
 import file70 from "./70.Companeros.mp3";
 
 export default [
-  { src: file1, title: "El ciclo de la vida", singer: "El rey leon" },
-  { src: file2, title: "Hakuna matata", singer: "El rey leon" },
-  { src: file3, title: "Opening 1", singer: "Friends" },
-  { src: file4, title: "", singer: "Allá tú" },
-  { src: file5, title: "", singer: "Juego de tronos" },
-  { src: file6, title: "", singer: "El señor de los anillos" },
-  { src: file7, title: "Con valor", singer: "Mulan" },
-  { src: file8, title: "Hijo de hombre", singer: "Tarzan" },
-  { src: file9, title: "Bajo del mar", singer: "La Sirenita" },
-  { src: file10, title: "Opening 1", singer: "Doraemon" },
-  { src: file11, title: "", singer: "Shin-chan" },
-  { src: file12, title: "", singer: "Hattori el Ninja" },
-  { src: file13, title: "Abuelito dime tú", singer: "Heidi" },
-  { src: file14, title: "Opening 1", singer: "10+2" },
-  { src: file15, title: "", singer: "D'artacan y los tres mosqueperros" },
-  { src: file16, title: "The story continues...", singer: "Star Wars" },
-  { src: file17, title: "Opening", singer: "Dr Slump" },
-  { src: file18, title: "", singer: "Musculman" },
-  { src: file19, title: "", singer: "Grand prix" },
-  { src: file20, title: "Opening", singer: "Sylvan" },
-  { src: file21, title: "Quien es ese hombre", singer: "Pasión de Gavilanes" },
-  { src: file22, title: "Sóc el Rovelló", singer: "Rovelló" },
-  { src: file23, title: "", singer: "Els barrufets" },
-  { src: file24, title: "", singer: "Pretty woman" },
-  { src: file25, title: "Opening", singer: "Bola de drac" },
-  { src: file26, title: "Campeones", singer: "Oliver y Benji" },
-  { src: file27, title: "", singer: "OT" },
-  { src: file28, title: "Opening", singer: "Sálvame" },
-  { src: file29, title: "", singer: "Amar es para siempre" },
-  { src: file30, title: "Opening", singer: "Els Picapedra" },
-  { src: file31, title: "Let it go", singer: "Frozen" },
-  { src: file32, title: "Busca lo más vital", singer: "El libro de la selva" },
-  { src: file33, title: "Quiero ser como tú", singer: "El libro de la selva" },
-  { src: file34, title: "Hay un amigo en mi", singer: "Toy story" },
-  { src: file35, title: "Bibbidi Bobbidi Boo", singer: "Cinderella" },
-  { src: file36, title: "Eye of the Tiger", singer: "Rocky Balboa" },
-  { src: file37, title: "Un mundo ideal", singer: "Aladdin" },
-  { src: file38, title: "Bella y bestia son", singer: "La bella y la bestia" },
-  { src: file39, title: "He's a pirate", singer: "Piratas del Caribe" },
-  { src: file40, title: "Opening", singer: "La casa de papel" },
-  { src: file41, title: "Un poco loco", singer: "Coco" },
-  { src: file42, title: "Opening", singer: "La pantera rosa" },
-  { src: file43, title: "Opening", singer: "Phineas y Ferb" },
-  { src: file44, title: "Recreo", singer: "La banda del patrio" },
-  { src: file45, title: "You're the one that I want", singer: "Grease" },
-  { src: file46, title: "Caresse sur l'océan", singer: "Les choristes" },
-  { src: file47, title: "Opening", singer: "La família Addams" },
-  { src: file48, title: "Opening 1", singer: "The Big Bang" },
-  { src: file49, title: "Opening", singer: "El príncipe de Bel-Air" },
-  { src: file50, title: "", singer: "Física o química" },
-  { src: file51, title: "", singer: "Plats bruts" },
-  { src: file52, title: "My heart will go on", singer: "Titanic" },
-  { src: file53, title: "", singer: "Narcos" },
-  { src: file54, title: "", singer: "Harry Potter" },
-  { src: file55, title: "", singer: "Madagascar" },
-  { src: file56, title: "", singer: "Indiana Jones" },
-  { src: file57, title: "", singer: "James Bond" },
-  { src: file58, title: "", singer: "Paquita Salas" },
-  { src: file59, title: "", singer: "Abeja Maya" },
-  { src: file60, title: "", singer: "Pokemon" },
-  { src: file61, title: "", singer: "Inspector Gadget" },
-  { src: file62, title: "", singer: "Shrek" },
-  { src: file63, title: "", singer: "Simpson" },
-  { src: file64, title: "", singer: "Como conocí a vuestra madre" },
-  { src: file65, title: "", singer: "Tortugues Ninja" },
-  { src: file66, title: "", singer: "Los serrano" },
-  { src: file67, title: "", singer: "Aquí no hay quien viva" },
-  { src: file68, title: "Opening", singer: "Ranma 1/2" },
-  { src: file69, title: "", singer: "Los Hombres de Paco" },
-  { src: file70, title: "", singer: "Compañeros" },
+  {
+    src: file1,
+    title: "El ciclo de la vida",
+    singer: "El rey leon",
+    video:
+      "https://www.youtube.com/embed/UxyjKdVasdA?si=NfyanEzkgIaaIQb3&amp;start=82",
+  },
+  {
+    src: file2,
+    title: "Hakuna matata",
+    singer: "El rey leon",
+    video:
+      " https://www.youtube.com/embed/LYdG2w8jbws?si=Sm1V-Eez7fUGj5gd&amp;start=75",
+  },
+  {
+    src: file3,
+    title: "Opening 1",
+    singer: "Friends",
+    video:
+      "https://www.youtube.com/embed/sLisEEwYZvw?si=fh16YyLLaNkACcSR&amp;start=1",
+  },
+  {
+    src: file4,
+    title: "",
+    singer: "Allá tú",
+    video:
+      "https://www.youtube.com/embed/PZq-s8YcCBg?si=NDd_9rUZBCMIFVjh&amp;start=11",
+  },
+  {
+    src: file5,
+    title: "",
+    singer: "Juego de tronos",
+    video:
+      "https://www.youtube.com/embed/TZE9gVF1QbA?si=d99Rkd7nwsWt7v9j&amp;start=85",
+  },
+  {
+    src: file6,
+    title: "",
+    singer: "El señor de los anillos",
+    video:
+      "https://www.youtube.com/embed/AULuSQsNrEM?si=j2Omdz167oxGTIuJ&amp;start=54",
+  },
+  {
+    src: file7,
+    title: "Con valor",
+    singer: "Mulan",
+    video:
+      "https://www.youtube.com/embed/ZVQ0IqQ0Z_s?si=tUFJx-rx_LfXtCsE&amp;start=162",
+  },
+  {
+    src: file8,
+    title: "Hijo de hombre",
+    singer: "Tarzan",
+    video:
+      "https://www.youtube.com/embed/GTh-KxTmiG0?si=KlFzBxD1c9D1BU5V&amp;start=76",
+  },
+  {
+    src: file9,
+    title: "Bajo del mar",
+    singer: "La Sirenita",
+    video:
+      "https://www.youtube.com/embed/FIHgQMblzJ8?si=MuFzavd0ApHkChQi&amp;start=29",
+  },
+  {
+    src: file10,
+    title: "Opening 1",
+    singer: "Doraemon",
+    video:
+      "https://www.youtube.com/embed/iEeL-X6xYzU?si=kOpnOEZVZkbWGwAZ&amp;start=16",
+  },
+  {
+    src: file11,
+    title: "",
+    singer: "Shin-chan",
+    video:
+      "https://www.youtube.com/embed/fXGPU_mkDos?si=YjhYwjGAe2yDJvUv&amp;start=2",
+  },
+  {
+    src: file12,
+    title: "",
+    singer: "Hattori el Ninja",
+    video:
+      "https://www.youtube.com/embed/KEwGEKFN87Y?si=82loaPIBTKa8WGTY&amp;start=5",
+  },
+  {
+    src: file13,
+    title: "Abuelito dime tú",
+    singer: "Heidi",
+    video:
+      "https://www.youtube.com/embed/l77rAJPtNKI?si=UvN4QR_P3e04bbgs&amp;start=32",
+  },
+  {
+    src: file14,
+    title: "Opening 1",
+    singer: "10+2",
+    video:
+      "https://www.youtube.com/embed/qUbUZSeVeWc?si=5UohFxxou1y8sa_9&amp;start=32",
+  },
+  {
+    src: file15,
+    title: "",
+    singer: "D'artacan y los tres mosqueperros",
+    video:
+      "https://www.youtube.com/embed/gOd0HdDGyEk?si=5e6ugGvVvECt9QPL&amp;start=4",
+  },
+  {
+    src: file16,
+    title: "The story continues...",
+    singer: "Star Wars",
+    video:
+      "https://www.youtube.com/embed/tGsKzZtRwxw?si=FY5OdjT_MGpizKuW&amp;start=8",
+  },
+  {
+    src: file17,
+    title: "Opening",
+    singer: "Dr Slump",
+    video:
+      "https://www.youtube.com/embed/ts1J4lGexcg?si=2yInMIvroIqv2tkf&amp;start=8",
+  },
+  {
+    src: file18,
+    title: "",
+    singer: "Musculman",
+    video: "https://www.youtube.com/embed/5Qf-bBDim2E?si=NGs8xDfI85AAtnqg",
+  },
+  {
+    src: file19,
+    title: "",
+    singer: "Grand prix",
+    video:
+      "https://www.youtube.com/embed/S-U8sgSnJvU?si=d50APiOjIp9LKr3B&amp;start=5",
+  },
+  {
+    src: file20,
+    title: "Opening",
+    singer: "Sylvan",
+    video:
+      "https://www.youtube.com/embed/BQrRMSnsTIQ?si=FRFnUkE27T2qb7i7&amp;start=4",
+  },
+  {
+    src: file21,
+    title: "Quien es ese hombre",
+    singer: "Pasión de Gavilanes",
+    video:
+      "https://www.youtube.com/embed/Kngpb-i-TTo?si=z11YxPTIbidDi1wi&amp;start=37",
+  },
+  {
+    src: file22,
+    title: "Sóc el Rovelló",
+    singer: "Rovelló",
+    video:
+      "https://www.youtube.com/embed/TVXaSexbqV0?si=b5d3c6hVAy69T4JJ&amp;start=22",
+  },
+  {
+    src: file23,
+    title: "",
+    singer: "Els barrufets",
+    video:
+      "https://www.youtube.com/embed/fX3ZufZG8B0?si=OWxk0gBoFZNI_WAX&amp;start=6",
+  },
+  {
+    src: file24,
+    title: "",
+    singer: "Pretty woman",
+    video:
+      "https://www.youtube.com/embed/ZWuWmQPpkio?si=1CaUjFFddjstYhK_&amp;start=135https://www.youtube.com/embed/ZWuWmQPpkio?si=1CaUjFFddjstYhK_&amp;start=135",
+  },
+  {
+    src: file25,
+    title: "Opening",
+    singer: "Bola de drac",
+    video:
+      "https://www.youtube.com/embed/dtD_xGvkWLk?si=m4h8TJ3AfbSVBVVa&amp;start=10",
+  },
+  {
+    src: file26,
+    title: "Campeones",
+    singer: "Oliver y Benji",
+    video:
+      "https://www.youtube.com/embed/3zrGjc0UEgU?si=cMIFr_rPFzwJvQjV&amp;start=58",
+  },
+  {
+    src: file27,
+    title: "",
+    singer: "OT",
+    video: "https://www.youtube.com/embed/Aypm43kGWio?si=vpMQFR5DS3DPp_o0",
+  },
+  {
+    src: file28,
+    title: "Opening",
+    singer: "Sálvame",
+    video:
+      "https://www.youtube.com/embed/7cdfa0CUOGQ?si=hz0MNcDvqwA2MaI7&amp;start=14",
+  },
+  {
+    src: file29,
+    title: "",
+    singer: "Amar es para siempre",
+    video:
+      "https://www.youtube.com/embed/ALc4aCZZANU?si=23cx-SIOiWXSUyen&amp;start=31",
+  },
+  {
+    src: file30,
+    title: "Opening",
+    singer: "Els Picapedra",
+    video:
+      "https://www.youtube.com/embed/tYzEr9zB8pk?si=BE9Km1y2JSOEv9Xx&amp;start=1",
+  },
+  {
+    src: file31,
+    title: "Let it go",
+    singer: "Frozen",
+    video:
+      "https://www.youtube.com/embed/L0MK7qz13bU?si=otP_E7SfuUmrl0dl&amp;start=123",
+  },
+  {
+    src: file32,
+    title: "Busca lo más vital",
+    singer: "El libro de la selva",
+    video:
+      "https://www.youtube.com/embed/ekQ__vJxOFQ?si=kv2x0gQ6Rpilv18f&amp;start=8",
+  },
+  {
+    src: file33,
+    title: "Quiero ser como tú",
+    singer: "El libro de la selva",
+    video:
+      "https://www.youtube.com/embed/rkEHm730SJA?si=czvEdQC3NE326Uty&amp;start=54",
+  },
+  {
+    src: file34,
+    title: "Hay un amigo en mi",
+    singer: "Toy story",
+    video:
+      "https://www.youtube.com/embed/-KmBrQEcNUI?si=y0Gg9QQDbuweC1OS&amp;start=9",
+  },
+  {
+    src: file35,
+    title: "Bibbidi Bobbidi Boo",
+    singer: "Cinderella",
+    video:
+      "https://www.youtube.com/embed/VnD9YxlQqxQ?si=4fmf1yJxDkyOl82d&amp;start=52",
+  },
+  {
+    src: file36,
+    title: "Eye of the Tiger",
+    singer: "Rocky Balboa",
+    video:
+      "https://www.youtube.com/embed/ERT_7u5L0dc?si=OU438_CSU0pSuXA6&amp;start=9",
+  },
+  { src: file37, title: "Un mundo ideal", singer: "Aladdin" }, // cuentame !!! TODO https://www.youtube.com/embed/P3bLAlluo9A?si=mz6vySz-voHLtLps&amp;start=7
+  {
+    src: file38,
+    title: "Bella y bestia son",
+    singer: "La bella y la bestia",
+    video:
+      "https://www.youtube.com/embed/XYKAwCD0tkQ?si=ANKCgEROOOC7c8E1&amp;start=52",
+  },
+  {
+    src: file39,
+    title: "He's a pirate",
+    singer: "Piratas del Caribe",
+    video:
+      "https://www.youtube.com/embed/nKBslba9E3U?si=qa_jk9eSE0E_yMeo&amp;start=46",
+  },
+  {
+    src: file40,
+    title: "Opening",
+    singer: "La casa de papel",
+    video:
+      "https://www.youtube.com/embed/1MzNrX1ZvtQ?si=5ctNYPmHULd85rsA&amp;start=18",
+  },
+  {
+    src: file41,
+    title: "Un poco loco",
+    singer: "Coco",
+    video:
+      "https://www.youtube.com/embed/yZ7cBunq8xo?si=udWPIeLaAosAnVIU&amp;start=58",
+  },
+  {
+    src: file42,
+    title: "Opening",
+    singer: "La pantera rosa",
+    video:
+      "https://www.youtube.com/embed/mtKuBGMhLKw?si=1bAfRqG8yVj_ZCwD&amp;start=3",
+  },
+  {
+    src: file43,
+    title: "Opening",
+    singer: "Phineas y Ferb",
+    video:
+      "https://www.youtube.com/embed/-Ykl2-ZYGFM?si=wyUdluKSMe1glXw8&amp;start=10",
+  },
+  {
+    src: file44,
+    title: "Recreo",
+    singer: "La banda del patrio",
+    video:
+      "https://www.youtube.com/embed/01I4nHR74sE?si=clFljR1L6-SqwUes&amp;start=2",
+  },
+  {
+    src: file45,
+    title: "You're the one that I want",
+    singer: "Grease",
+    video:
+      "https://www.youtube.com/embed/itRFjzQICJU?si=_IuDH4jkSPhh3C36&amp;start=46",
+  },
+  {
+    src: file46,
+    title: "Caresse sur l'océan",
+    singer: "Les choristes",
+    video:
+      "https://www.youtube.com/embed/D3qQbPTvRIg?si=X-XfXUnpHQj5LNg8&amp;start=3",
+  },
+  {
+    src: file47,
+    title: "Opening",
+    singer: "La família Addams",
+    video:
+      "https://www.youtube.com/embed/hi3JqK10hDk?si=Ve2DM_keUo1twd89&amp;start=11",
+  },
+  {
+    src: file48,
+    title: "Opening 1",
+    singer: "The Big Bang",
+    video:
+      "https://www.youtube.com/embed/X41bA4l-h0w?si=eT0p3xTNZrL16NRR&amp;start=7",
+  },
+  {
+    src: file49,
+    title: "Opening",
+    singer: "El príncipe de Bel-Air",
+    video:
+      "https://www.youtube.com/embed/84ejUn4iH1E?si=qpxfmR6z9-TlWCnA&amp;start=28",
+  },
+  {
+    src: file50,
+    title: "",
+    singer: "Física o química",
+    video:
+      "https://www.youtube.com/embed/pFUUMzsFbVQ?si=hP7PYKap6DndMkdy&amp;start=1",
+  },
+  {
+    src: file51,
+    title: "",
+    singer: "Plats bruts",
+    video: "https://www.youtube.com/embed/AfEDrbnx2zw?si=KYX_uhOIiB9u0eaR",
+  },
+  {
+    src: file52,
+    title: "My heart will go on",
+    singer: "Titanic",
+    video:
+      "https://www.youtube.com/embed/F2RnxZnubCM?si=yS1T8deVvwv-EGSJ&amp;start=63",
+  },
+  {
+    src: file53,
+    title: "",
+    singer: "Narcos",
+    video:
+      "https://www.youtube.com/embed/VNP2znpZvUE?si=owNoJT-Oa9brsCAW&amp;start=8",
+  },
+  {
+    src: file54,
+    title: "",
+    singer: "Harry Potter",
+    video:
+      "https://www.youtube.com/embed/6iCJ7FlkaB8?si=7_EUgu6o3Okb-8cU&amp;start=194",
+  },
+  {
+    src: file55,
+    title: "",
+    singer: "Madagascar",
+    video:
+      "https://www.youtube.com/embed/hdcTmpvDO0I?si=cCAYhdbVbI5t9lHa&amp;start=4",
+  },
+  {
+    src: file56,
+    title: "",
+    singer: "Indiana Jones",
+    video:
+      "https://www.youtube.com/embed/ntXJJwEk1NA?si=PL2PsEFlfAonwUvl&amp;start=8",
+  },
+  {
+    src: file57,
+    title: "",
+    singer: "James Bond",
+    video:
+      "https://www.youtube.com/embed/bx9DZ9gDmeo?si=Tq0ocwph-lU2mrqP&amp;start=1",
+  },
+  {
+    src: file58,
+    title: "",
+    singer: "Paquita Salas",
+    video:
+      "https://www.youtube.com/embed/M5Ajppl-O1Y?si=rkH5_BZHzZtJqID3&amp;start=3",
+  },
+  {
+    src: file59,
+    title: "",
+    singer: "Abeja Maya",
+    video:
+      "https://www.youtube.com/embed/Z5hfIjMz5LI?si=vmw2Ls99_1rze92j&amp;start=3",
+  },
+  {
+    src: file60,
+    title: "",
+    singer: "Pokemon",
+    video:
+      "https://www.youtube.com/embed/wvy-pO65GhQ?si=OlwBrQ6SXi7_GxMS&amp;start=5",
+  },
+  {
+    src: file61,
+    title: "",
+    singer: "Inspector Gadget",
+    video:
+      "https://www.youtube.com/embed/EcF2LOaLgA0?si=qjK6fEl6P3yyqjqN&amp;start=4",
+  },
+  {
+    src: file62,
+    title: "",
+    singer: "Shrek",
+    video:
+      "https://www.youtube.com/embed/tlmKcntMQw4?si=EBvML2GKNI2yMa08&amp;start=61",
+  },
+  {
+    src: file63,
+    title: "",
+    singer: "Simpson",
+    video:
+      "https://www.youtube.com/embed/aDcFhYtiIEM?si=E3Vau22xQcKq9ePs&amp;start=22",
+  },
+  {
+    src: file64,
+    title: "",
+    singer: "Como conocí a vuestra madre",
+    video:
+      "https://www.youtube.com/embed/738OEa5NZ9A?si=h5aieRKTVtaD-aVi&amp;start=52",
+  },
+  {
+    src: file65,
+    title: "",
+    singer: "Tortugues Ninja",
+    video:
+      "https://www.youtube.com/embed/hWHog5OniIw?si=MjdHRW4OaTR0i-i8&amp;start=1",
+  },
+  {
+    src: file66,
+    title: "",
+    singer: "Los serrano",
+    video:
+      "https://www.youtube.com/embed/8JrAx8Ayabs?si=epp08ki8Nxyw4whf&amp;start=44",
+  },
+  {
+    src: file67,
+    title: "",
+    singer: "Aquí no hay quien viva",
+    video:
+      "https://www.youtube.com/embed/4RF7YMwhz6M?si=AUtJFe-g55KN2jAC&amp;start=21",
+  },
+  {
+    src: file68,
+    title: "Opening",
+    singer: "Ranma 1/2",
+    video:
+      "https://www.youtube.com/embed/UDimxKOwFCY?si=pP-w2t98tmn1q8C1&amp;start=1",
+  },
+  {
+    src: file69,
+    title: "",
+    singer: "Los Hombres de Paco",
+    video:
+      "https://www.youtube.com/embed/WnfnJwsCMzw?si=umkMeWyo7N9WP5K7&amp;start=4",
+  },
+  {
+    src: file70,
+    title: "",
+    singer: "Compañeros",
+    video:
+      "https://www.youtube.com/embed/mAcVJalrKek?si=HyaQqQON_gsKGJem&amp;start=29",
+  },
 ];
