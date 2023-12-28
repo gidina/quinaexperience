@@ -42,8 +42,10 @@ const Badge: React.FC<Badge> = ({ active = false, onClick, children }) => (
   <button
     className={`py-4 rounded-lg text-4xl border-2 ${
       active
-        ? "border-green-600 bg-green-300"
-        : "border-dashed border-gray-600 bg-gray-300"
+        // ? "border-green-600 bg-green-300"
+        // : "border-dashed border-gray-600 bg-gray-300"
+        ? "border-gray-600 bg-gray-300"
+        : "bg-gray-200 text-gray-600"
     }`}
     onClick={onClick}
   >
