@@ -34,7 +34,7 @@ import file33 from "./33.Quiero ser como tu-Libro de la Selva.mp3";
 import file34 from "./34.Toy story hay un amigo en mi.mp3";
 import file35 from "./35.Cenicienta.mp3";
 import file36 from "./36.Rocky.mp3";
-import file37 from "./37.Aladdin.mp3";
+import file37 from "./37.Cuentame.mp3";
 import file38 from "./38.La Bella y la Bestia.mp3";
 import file39 from "./39.Piratas Caribe.mp3";
 import file40 from "./40.La casa de papel.mp3";
@@ -193,7 +193,8 @@ export default [
     src: file18,
     title: "",
     singer: "Musculman",
-    video: "https://www.youtube.com/embed/5Qf-bBDim2E?autoplay=1&mute=1&si=NGs8xDfI85AAtnqg",
+    video:
+      "https://www.youtube.com/embed/5Qf-bBDim2E?autoplay=1&mute=1&si=NGs8xDfI85AAtnqg",
   },
   {
     src: file19,
@@ -255,7 +256,8 @@ export default [
     src: file27,
     title: "",
     singer: "OT",
-    video: "https://www.youtube.com/embed/Aypm43kGWio?autoplay=1&mute=1&si=vpMQFR5DS3DPp_o0",
+    video:
+      "https://www.youtube.com/embed/Aypm43kGWio?autoplay=1&mute=1&si=vpMQFR5DS3DPp_o0",
   },
   {
     src: file28,
@@ -320,7 +322,13 @@ export default [
     video:
       "https://www.youtube.com/embed/ERT_7u5L0dc?autoplay=1&mute=1&si=OU438_CSU0pSuXA6&amp;start=9",
   },
-  { src: file37, title: "Un mundo ideal", singer: "Aladdin" }, // cuentame !!! TODO https://www.youtube.com/embed/P3bLAlluo9A?autoplay=1&mute=1&si=mz6vySz-voHLtLps&amp;start=7
+  {
+    src: file37,
+    title: "Intro",
+    singer: "Cuéntame cómo pasó",
+    video:
+      "https://www.youtube.com/embed/P3bLAlluo9A?autoplay=1&mute=1&si=mz6vySz-voHLtLps&amp;start=7",
+  },
   {
     src: file38,
     title: "Bella y bestia son",
@@ -416,7 +424,8 @@ export default [
     src: file51,
     title: "",
     singer: "Plats bruts",
-    video: "https://www.youtube.com/embed/AfEDrbnx2zw?autoplay=1&mute=1&si=KYX_uhOIiB9u0eaR",
+    video:
+      "https://www.youtube.com/embed/AfEDrbnx2zw?autoplay=1&mute=1&si=KYX_uhOIiB9u0eaR",
   },
   {
     src: file52,
