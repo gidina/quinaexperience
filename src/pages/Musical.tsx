@@ -6,12 +6,12 @@ import QuinaDetailTitle from "../components/QuinaDetailTitle";
 
 const Musical = () => {
   return (
-    <div className="w-full h-full flex m-auto">
+    <>
       <QuinaDetailTitle>
         Quina Musical <PiMusicNotesFill />
       </QuinaDetailTitle>
       <Bingo songs={songs} awards={["Quina"]} />
-    </div>
+    </>
   );
 };
 
