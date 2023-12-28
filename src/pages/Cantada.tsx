@@ -5,12 +5,12 @@ import QuinaDetailTitle from "../components/QuinaDetailTitle";
 
 const Cantada = () => {
   return (
-    <div className="w-full h-full flex m-auto">
+    <>
       <QuinaDetailTitle>
         Quina Cantada <PiMicrophoneStageFill />
       </QuinaDetailTitle>
       <Bingo awards={["Línia", "Quina", "Quina"]} />
-    </div>
+    </>
   );
 };
 
