@@ -119,8 +119,7 @@ const Bingo = ({
   const onNext = () => getDraw();
 
   return (
-    <div className="w-full grid grid-cols-[minmax(0,_3fr)_minmax(0,_2fr)] grid-rows-1 gap-16 max-h-[1623px]">
-    {/* // <div className="flex gap-16 h-full min-w-[2400px]"> */}
+    <div className="w-full grid grid-cols-[auto_minmax(0,1fr)] gap-10">
       <BingoGrid drawedNumbers={drawedNumbers} maxNumber={maxNumber} />
       <BingoInfo
         drawedNumbers={drawedNumbers}
