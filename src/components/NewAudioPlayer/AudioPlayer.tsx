@@ -53,13 +53,14 @@ const AudioCoverOrVideo = ({ song }: { song?: Song }) => {
     );
   }
 
-  return (
-    <img
-      src={christmasBackground}
-      // className="object-cover w-full m-auto overflow-hidden"
-      className="max-h-full w-full object-cover"
-    />
-  );
+  return <div className="bg-[url('/src/assets/christmas-rock-bg.jpg')]" />
+  // return (
+  //   <img
+  //     src={christmasBackground}
+  //     // className="object-cover w-full m-auto overflow-hidden"
+  //     className="max-h-full w-full object-cover"
+  //   />
+  // );
 };
 
 interface AudioControlsProps {
@@ -177,7 +178,7 @@ const AudioControls = ({
           <source type="audio/mpeg" src={currentSong.src} />
         </audio>
       )}
-      <div className="grid grid-rows-3 items-center">
+      <div className="grid grid-flow-row auto-rows-auto items-center gap-2 border border-black rounded bg-zinc-100 p-4">
         <div className="flex gap-3 items-center justify-self-end">
           <IconButton
             intent="secondary"
@@ -255,21 +256,23 @@ const AudioPlayer = ({
   onPrev,
 }: AudioPlayerProps) => {
   return (
-    <div className="grid grid-rows-[minmax(0,_1fr)_auto_auto] gap-4">
+    <div className="grid grid-rows-[minmax(0,1fr),auto] gap-4">
       <AudioCoverOrVideo song={currentSong} />
-      <div className="flex flex-col gap-2.5">
-        <p className="text-slate-300 font-bold text-4xl">
-          {currentSong?.title ? currentSong?.title : "Títol: -"}
-        </p>
-        <p className="text-2xl">{currentSong?.singer ? currentSong?.singer : "Cantant: -"}</p>
+      <div className="grid grid-cols-2 gap-4">
+        <div className="flex flex-col gap-2.5 border border-black rounded bg-zinc-100 p-4">
+          <span className="text-slate-500	font-bold text-4xl">
+            {currentSong?.title ? currentSong?.title : "Títol: -"}
+          </span>
+          <span className="text-2xl">{currentSong?.singer ? currentSong?.singer : "Cantant: -"}</span>
+        </div>
+        <AudioControls
+          onPrev={onPrev}
+          currentSong={currentSong}
+          onNext={onNext}
+          songIndex={songIndex}
+          songCount={songCount}
+        />
       </div>
-      <AudioControls
-        onPrev={onPrev}
-        currentSong={currentSong}
-        onNext={onNext}
-        songIndex={songIndex}
-        songCount={songCount}
-      />
     </div>
   );
 }
