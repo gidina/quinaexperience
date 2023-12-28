@@ -89,7 +89,7 @@ export default [
     title: "I'll Be There For You",
     singer: "Friends",
     video:
-      "https://www.youtube.com/embed/s2TyVQGoCYo?si=bojf4xGWNCfplC0V&amp;start=3",
+      "https://www.youtube.com/embed/s2TyVQGoCYo?autoplay=1&mute=1&si=bojf4xGWNCfplC0V&amp;start=3",
   },
   {
     src: file4,
@@ -173,7 +173,7 @@ export default [
     title: "",
     singer: "D'artacan y los tres mosqueperros",
     video:
-      "https://www.youtube.com/embed/mB7qorTexqg?si=rXAPDCO-_Y04Fkwe&amp;start=15",
+      "https://www.youtube.com/embed/mB7qorTexqg?autoplay=1&mute=1&si=rXAPDCO-_Y04Fkwe&amp;start=15",
   },
   {
     src: file16,
@@ -397,7 +397,7 @@ export default [
     title: "Opening",
     singer: "La família Addams",
     video:
-      "https://www.youtube.com/embed/fj3NyEuIcHo?si=U_CV1-xVW4yOI62w&amp;start=2",
+      "https://www.youtube.com/embed/fj3NyEuIcHo?autoplay=1&mute=1&si=U_CV1-xVW4yOI62w&amp;start=2",
   },
   {
     src: file48,
