@@ -89,25 +89,25 @@ export default [
     title: "I'll Be There For You",
     singer: "Friends",
     video:
-      "https://www.youtube.com/embed/s2TyVQGoCYo?si=bojf4xGWNCfplC0V&amp;start=3",
+      "https://www.youtube.com/embed/s2TyVQGoCYo?autoplay=1&mute=1&si=bojf4xGWNCfplC0V&amp;start=3",
   },
   {
     src: file4,
-    title: "",
+    title: "Opening",
     singer: "Allá tú",
     video:
       "https://www.youtube.com/embed/PZq-s8YcCBg?autoplay=1&mute=1&si=NDd_9rUZBCMIFVjh&amp;start=11",
   },
   {
     src: file5,
-    title: "",
+    title: "Opening",
     singer: "Juego de tronos",
     video:
       "https://www.youtube.com/embed/TZE9gVF1QbA?autoplay=1&mute=1&si=d99Rkd7nwsWt7v9j&amp;start=85",
   },
   {
     src: file6,
-    title: "",
+    title: "Opening",
     singer: "El señor de los anillos",
     video:
       "https://www.youtube.com/embed/AULuSQsNrEM?autoplay=1&mute=1&si=j2Omdz167oxGTIuJ&amp;start=54",
@@ -142,14 +142,14 @@ export default [
   },
   {
     src: file11,
-    title: "",
+    title: "Opening",
     singer: "Shin-chan",
     video:
       "https://www.youtube.com/embed/fXGPU_mkDos?autoplay=1&mute=1&si=YjhYwjGAe2yDJvUv&amp;start=2",
   },
   {
     src: file12,
-    title: "",
+    title: "Opening",
     singer: "Hattori el Ninja",
     video:
       "https://www.youtube.com/embed/KEwGEKFN87Y?autoplay=1&mute=1&si=82loaPIBTKa8WGTY&amp;start=5",
@@ -170,10 +170,10 @@ export default [
   },
   {
     src: file15,
-    title: "",
+    title: "Opening",
     singer: "D'artacan y los tres mosqueperros",
     video:
-      "https://www.youtube.com/embed/mB7qorTexqg?si=rXAPDCO-_Y04Fkwe&amp;start=15",
+      "https://www.youtube.com/embed/mB7qorTexqg?autoplay=1&mute=1&si=rXAPDCO-_Y04Fkwe&amp;start=15",
   },
   {
     src: file16,
@@ -191,14 +191,14 @@ export default [
   },
   {
     src: file18,
-    title: "",
+    title: "Opening",
     singer: "Musculman",
     video:
       "https://www.youtube.com/embed/5Qf-bBDim2E?autoplay=1&mute=1&si=NGs8xDfI85AAtnqg",
   },
   {
     src: file19,
-    title: "",
+    title: "Opening",
     singer: "Grand prix",
     video:
       "https://www.youtube.com/embed/S-U8sgSnJvU?autoplay=1&mute=1&si=d50APiOjIp9LKr3B&amp;start=5",
@@ -226,14 +226,14 @@ export default [
   },
   {
     src: file23,
-    title: "",
+    title: "Opening",
     singer: "Els barrufets",
     video:
       "https://www.youtube.com/embed/fX3ZufZG8B0?autoplay=1&mute=1&si=OWxk0gBoFZNI_WAX&amp;start=6",
   },
   {
     src: file24,
-    title: "",
+    title: "Opening",
     singer: "Pretty woman",
     video:
       "https://www.youtube.com/embed/ZWuWmQPpkio?autoplay=1&mute=1&si=1CaUjFFddjstYhK_&amp;start=135https://www.youtube.com/embed/ZWuWmQPpkio?autoplay=1&mute=1&si=1CaUjFFddjstYhK_&amp;start=135",
@@ -254,7 +254,7 @@ export default [
   },
   {
     src: file27,
-    title: "",
+    title: "Opening",
     singer: "OT",
     video:
       "https://www.youtube.com/embed/Aypm43kGWio?autoplay=1&mute=1&si=vpMQFR5DS3DPp_o0",
@@ -268,7 +268,7 @@ export default [
   },
   {
     src: file29,
-    title: "",
+    title: "Opening",
     singer: "Amar es para siempre",
     video:
       "https://www.youtube.com/embed/ALc4aCZZANU?autoplay=1&mute=1&si=23cx-SIOiWXSUyen&amp;start=31",
@@ -397,7 +397,7 @@ export default [
     title: "Opening",
     singer: "La família Addams",
     video:
-      "https://www.youtube.com/embed/fj3NyEuIcHo?si=U_CV1-xVW4yOI62w&amp;start=2",
+      "https://www.youtube.com/embed/fj3NyEuIcHo?autoplay=1&mute=1&si=U_CV1-xVW4yOI62w&amp;start=2",
   },
   {
     src: file48,
@@ -415,14 +415,14 @@ export default [
   },
   {
     src: file50,
-    title: "",
+    title: "Opening",
     singer: "Física o química",
     video:
       "https://www.youtube.com/embed/pFUUMzsFbVQ?autoplay=1&mute=1&si=hP7PYKap6DndMkdy&amp;start=1",
   },
   {
     src: file51,
-    title: "",
+    title: "Opening",
     singer: "Plats bruts",
     video:
       "https://www.youtube.com/embed/AfEDrbnx2zw?autoplay=1&mute=1&si=KYX_uhOIiB9u0eaR",
@@ -436,105 +436,105 @@ export default [
   },
   {
     src: file53,
-    title: "",
+    title: "Opening",
     singer: "Narcos",
     video:
       "https://www.youtube.com/embed/VNP2znpZvUE?autoplay=1&mute=1&si=owNoJT-Oa9brsCAW&amp;start=8",
   },
   {
     src: file54,
-    title: "",
+    title: "Opening",
     singer: "Harry Potter",
     video:
       "https://www.youtube.com/embed/6iCJ7FlkaB8?autoplay=1&mute=1&si=7_EUgu6o3Okb-8cU&amp;start=194",
   },
   {
     src: file55,
-    title: "",
+    title: "Opening",
     singer: "Madagascar",
     video:
       "https://www.youtube.com/embed/hdcTmpvDO0I?autoplay=1&mute=1&si=cCAYhdbVbI5t9lHa&amp;start=4",
   },
   {
     src: file56,
-    title: "",
+    title: "Opening",
     singer: "Indiana Jones",
     video:
       "https://www.youtube.com/embed/ntXJJwEk1NA?autoplay=1&mute=1&si=PL2PsEFlfAonwUvl&amp;start=8",
   },
   {
     src: file57,
-    title: "",
+    title: "Opening",
     singer: "James Bond",
     video:
       "https://www.youtube.com/embed/bx9DZ9gDmeo?autoplay=1&mute=1&si=Tq0ocwph-lU2mrqP&amp;start=1",
   },
   {
     src: file58,
-    title: "",
+    title: "Opening",
     singer: "Paquita Salas",
     video:
       "https://www.youtube.com/embed/M5Ajppl-O1Y?autoplay=1&mute=1&si=rkH5_BZHzZtJqID3&amp;start=3",
   },
   {
     src: file59,
-    title: "",
+    title: "Opening",
     singer: "Abeja Maya",
     video:
       "https://www.youtube.com/embed/Z5hfIjMz5LI?autoplay=1&mute=1&si=vmw2Ls99_1rze92j&amp;start=3",
   },
   {
     src: file60,
-    title: "",
+    title: "Opening",
     singer: "Pokemon",
     video:
       "https://www.youtube.com/embed/wvy-pO65GhQ?autoplay=1&mute=1&si=OlwBrQ6SXi7_GxMS&amp;start=5",
   },
   {
     src: file61,
-    title: "",
+    title: "Opening",
     singer: "Inspector Gadget",
     video:
       "https://www.youtube.com/embed/EcF2LOaLgA0?autoplay=1&mute=1&si=qjK6fEl6P3yyqjqN&amp;start=4",
   },
   {
     src: file62,
-    title: "",
+    title: "Opening",
     singer: "Shrek",
     video:
       "https://www.youtube.com/embed/tlmKcntMQw4?autoplay=1&mute=1&si=EBvML2GKNI2yMa08&amp;start=61",
   },
   {
     src: file63,
-    title: "",
+    title: "Opening",
     singer: "Simpson",
     video:
       "https://www.youtube.com/embed/aDcFhYtiIEM?autoplay=1&mute=1&si=E3Vau22xQcKq9ePs&amp;start=22",
   },
   {
     src: file64,
-    title: "",
+    title: "Opening",
     singer: "Como conocí a vuestra madre",
     video:
       "https://www.youtube.com/embed/738OEa5NZ9A?autoplay=1&mute=1&si=h5aieRKTVtaD-aVi&amp;start=52",
   },
   {
     src: file65,
-    title: "",
+    title: "Opening",
     singer: "Tortugues Ninja",
     video:
       "https://www.youtube.com/embed/hWHog5OniIw?autoplay=1&mute=1&si=MjdHRW4OaTR0i-i8&amp;start=1",
   },
   {
     src: file66,
-    title: "",
+    title: "Opening",
     singer: "Los serrano",
     video:
       "https://www.youtube.com/embed/8JrAx8Ayabs?autoplay=1&mute=1&si=epp08ki8Nxyw4whf&amp;start=44",
   },
   {
     src: file67,
-    title: "",
+    title: "Opening",
     singer: "Aquí no hay quien viva",
     video:
       "https://www.youtube.com/embed/4RF7YMwhz6M?autoplay=1&mute=1&si=AUtJFe-g55KN2jAC&amp;start=21",
@@ -548,14 +548,14 @@ export default [
   },
   {
     src: file69,
-    title: "",
+    title: "Opening",
     singer: "Los Hombres de Paco",
     video:
       "https://www.youtube.com/embed/WnfnJwsCMzw?autoplay=1&mute=1&si=umkMeWyo7N9WP5K7&amp;start=4",
   },
   {
     src: file70,
-    title: "",
+    title: "Opening",
     singer: "Compañeros",
     video:
       "https://www.youtube.com/embed/mAcVJalrKek?autoplay=1&mute=1&si=HyaQqQON_gsKGJem&amp;start=29",
