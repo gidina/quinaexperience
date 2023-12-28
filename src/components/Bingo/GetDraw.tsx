@@ -20,7 +20,7 @@ interface GetDrawButton
 
 const GetDrawButton = ({ onClick, disabled }: GetDrawButton) => (
   <button
-    className="bg-red-700 text-white font-medium rounded-lg	text-xl font-light p-3 border-red-700 border-solid hover:bg-red-800 hover-border-red-800 hover:cursor-pointer focus:outline-none	disabled:bg-red-400 disabled:cursor-not-allowed disabled:hover:border-transparent"
+    className="bg-red-700 text-white font-medium rounded-lg	text-4xl p-3 border-red-700 border-solid hover:bg-red-800 hover-border-red-800 hover:cursor-pointer focus:outline-none	disabled:bg-red-400 disabled:cursor-not-allowed disabled:hover:border-transparent"
     onClick={onClick}
     disabled={disabled}
   >
