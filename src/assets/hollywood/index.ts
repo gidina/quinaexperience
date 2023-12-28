@@ -82,14 +82,14 @@ export default [
     title: "Hakuna matata",
     singer: "El rey leon",
     video:
-      " https://www.youtube.com/embed/LYdG2w8jbws?autoplay=1&mute=1&si=Sm1V-Eez7fUGj5gd&amp;start=75",
+      "https://www.youtube.com/embed/LYdG2w8jbws?autoplay=1&mute=1&si=Sm1V-Eez7fUGj5gd&amp;start=75",
   },
   {
     src: file3,
-    title: "Opening 1",
+    title: "I'll Be There For You",
     singer: "Friends",
     video:
-      "https://www.youtube.com/embed/sLisEEwYZvw?autoplay=1&mute=1&si=fh16YyLLaNkACcSR&amp;start=1",
+      "https://www.youtube.com/embed/s2TyVQGoCYo?si=bojf4xGWNCfplC0V&amp;start=3",
   },
   {
     src: file4,
@@ -173,7 +173,7 @@ export default [
     title: "",
     singer: "D'artacan y los tres mosqueperros",
     video:
-      "https://www.youtube.com/embed/gOd0HdDGyEk?autoplay=1&mute=1&si=5e6ugGvVvECt9QPL&amp;start=4",
+      "https://www.youtube.com/embed/mB7qorTexqg?si=rXAPDCO-_Y04Fkwe&amp;start=15",
   },
   {
     src: file16,
@@ -397,7 +397,7 @@ export default [
     title: "Opening",
     singer: "La família Addams",
     video:
-      "https://www.youtube.com/embed/hi3JqK10hDk?autoplay=1&mute=1&si=Ve2DM_keUo1twd89&amp;start=11",
+      "https://www.youtube.com/embed/fj3NyEuIcHo?si=U_CV1-xVW4yOI62w&amp;start=2",
   },
   {
     src: file48,
