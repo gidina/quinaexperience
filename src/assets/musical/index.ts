@@ -284,7 +284,7 @@ export default [
     title: "Matchday",
     singer: "Mon DJ",
     video:
-      "https://www.youtube.com/embed/WeUlmQPUKSE?autoplay=1&mute=1&si=5gzvWz-kHuMyMXoo&amp;start=11",
+      "https://www.youtube.com/embed/gJgOeD8s5G0?si=52lpKFSdTRZLn7oV",
   },
   {
     src: file29,
@@ -600,7 +600,7 @@ export default [
     title: "Olvidame y pega la vuelta",
     singer: "Pimpinela",
     video:
-      "https://www.youtube.com/embed/vqSHxsaDuto?autoplay=1&mute=1&si=jboTsQoj1ZAdgZ6G&amp;controls=0&amp;start=260",
+      "https://www.youtube.com/embed/vqSHxsaDuto?si=GbnR7jw_2_5KfUXz&amp;start=28",
   },
   {
     src: file74,
