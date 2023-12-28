@@ -19,7 +19,7 @@ const formatDurationDisplay = (duration: number) => {
   const formatted = [min, sec].map((n) => (n < 10 ? "0" + n : n)).join(":");
 
   return formatted;
-}
+};
 
 const AudioProgressBar = (props: AudioProgressBarProps) => {
   const { duration, currentProgress, buffered, ...rest } = props;
@@ -56,19 +56,21 @@ const AudioProgressBar = (props: AudioProgressBarProps) => {
   // );
 
   return (
-    <div className="relative h-1 group">
-      <input
-        type="range"
-        name="progress"
-        className="progress-bar absolute inset-0 w-full m-0 h-full bg-transparent appearance-none cursor-pointer group-hover:h-2 transition-all accent-red-600 hover:accent-red-600 before:absolute before:inset-0 before:h-full before:w-full before:bg-red-600 before:origin-left after:absolute after:h-full after:w-full after:bg-red-600/50"
-        // className={`progress-bar absolute inset-0 w-full m-0 h-full bg-transparent appearance-none cursor-pointer dark:bg-gray-700 group-hover:h-2 transition-all accent-amber-600 hover:accent-amber-600 before:absolute before:inset-0 before:h-full before:w-full before:bg-amber-600 before:origin-left after:absolute after:h-full after:w-full after:bg-amber-600/50`}
-        style={progressStyles}
-        min={0}
-        max={duration}
-        value={currentProgress}
-        {...rest}
-      />
-      <span className="text-lg absolute mt-2">
+    <div className="pb-4">
+      <div className="relative h-1 group">
+        <input
+          type="range"
+          name="progress"
+          className="progress-bar absolute inset-0 w-full m-0 h-full bg-transparent appearance-none cursor-pointer group-hover:h-2 transition-all accent-red-600 hover:accent-red-600 before:absolute before:inset-0 before:h-full before:w-full before:bg-red-600 before:origin-left after:absolute after:h-full after:w-full after:bg-red-600/50"
+          // className={`progress-bar absolute inset-0 w-full m-0 h-full bg-transparent appearance-none cursor-pointer dark:bg-gray-700 group-hover:h-2 transition-all accent-amber-600 hover:accent-amber-600 before:absolute before:inset-0 before:h-full before:w-full before:bg-amber-600 before:origin-left after:absolute after:h-full after:w-full after:bg-amber-600/50`}
+          style={progressStyles}
+          min={0}
+          max={duration}
+          value={currentProgress}
+          {...rest}
+        />
+      </div>
+      <span className="block text-lg mt-2">
         {elapsedDisplay} / {durationDisplay}
       </span>
     </div>
@@ -114,8 +116,7 @@ const AudioProgressBar = (props: AudioProgressBarProps) => {
           [&::-moz-range-track]:w-full
           [&::-moz-range-track]:h-2
           [&::-moz-range-track]:bg-gray-100
-          [&::-moz-range-track]:rounded-full`
-        }
+          [&::-moz-range-track]:rounded-full`}
         id="basic-range-slider-usage"
       ></input>
     </>
@@ -132,7 +133,7 @@ const AudioProgressBar = (props: AudioProgressBarProps) => {
   //     {...rest}
   //   />
   // );
-}
+};
 
 // import React from "react";
 

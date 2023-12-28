@@ -18,7 +18,7 @@ const QuinaLink: FC<QuinaLink> = ({ to, title, icon, bgColor }) => {
   return (
     <Link
       to={to}
-      className={`px-16 py-32 rounded-2xl text-7xl no-underline text-black flex justify-center items-center gap-8 transition-transform hover:scale-105 hover:shadow-xl ${bgColor}`}
+      className={`px-16 py-16 rounded-2xl text-7xl no-underline text-black flex justify-center items-center gap-8 transition-transform hover:scale-105 hover:shadow-xl ${bgColor}`}
     >
       <>
         {title} {icon && React.createElement(icon, { className: "h-16 w-16" })}
@@ -29,7 +29,7 @@ const QuinaLink: FC<QuinaLink> = ({ to, title, icon, bgColor }) => {
 
 const Home = () => {
   return (
-    <div className="home grid grid-cols-2 py-6 gap-8">
+    <div className="home grid grid-cols-2 py-8 gap-8">
       <QuinaLink
         to="hollywood"
         title="Hollywood"
@@ -64,8 +64,6 @@ export default Home;
 /*
 TODO
 =======================================
-Afegir què es canta i si ja s'ha cantat (Línia, Quina, > 1 Quina)
 Mirar com queda amb la resolució de pantalla definitiva
-Millorar estils
 Auto-save? Permetre carregar dades desde LocalStorage?
 */

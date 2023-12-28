@@ -40,7 +40,7 @@ interface Badge {
 
 const Badge: React.FC<Badge> = ({ active = false, onClick, children }) => (
   <button
-    className={`py-4 px-8 rounded-lg text-xl border-2 ${
+    className={`py-4 rounded-lg text-4xl border-2 ${
       active
         ? "border-green-600 bg-green-300"
         : "border-dashed border-gray-600 bg-gray-300"
@@ -91,15 +91,15 @@ const BingoInfo = ({
   awards,
 }: BingoInfo) => {
   return (
-    <div className="grid grid-rows-[auto_minmax(0,_1fr)] gap-4 w-full">
+    <div className="grid grid-rows-[auto_minmax(0,1fr)] gap-4 w-full h-full">
       {/* // <div className="w-full flex flex-col gap-8 max-w[1000px]"> */}
       <div className="w-full flex flex-col gap-4">
         <SettingsPane undo={undo} drawedNumbers={drawedNumbers} />
         <div className="w-full flex flex-col gap-4">
           <LastDraw drawedNumbers={drawedNumbers} />
-          <Last5Drawed drawedNumbers={drawedNumbers} />
+          {!song?.songCount && <Last5Drawed drawedNumbers={drawedNumbers} />}
         </div>
-        <Badges awards={awards} />
+        {!song?.songCount && <Badges awards={awards} />}
         {!song?.songCount && <GetDraw
           drawedNumbers={drawedNumbers}
           maxNumber={maxNumber}

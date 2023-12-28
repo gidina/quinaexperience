@@ -15,7 +15,7 @@ import Header from "./components/Header";
 
 const Dashboard = () => {
   return (
-    <div className="h-full grid auto-rows-min">
+    <div className="max-h-screen min-h-full grid grid-rows-[auto_minmax(0,_1fr)]">
       <Header />
       <Outlet />
       {/* <div>Footer</div> */}
