@@ -6,7 +6,7 @@ import QuinaDetailTitle from "../components/QuinaDetailTitle";
 
 const Tongo = () => {
   return (
-    <div className="w-full h-full flex m-auto">
+    <>
       <QuinaDetailTitle>
         Quina Tongo <ImEvil2 />
         <Link
@@ -17,7 +17,7 @@ const Tongo = () => {
         </Link>
       </QuinaDetailTitle>
       <Bingo isManualMode awards={["Línia", "Quina"]} />
-    </div>
+    </>
   );
 };
 
