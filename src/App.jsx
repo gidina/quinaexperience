@@ -54,6 +54,14 @@ const router = createBrowserRouter([
     ],
   },
   {
+    path: "/stream/tongo",
+    element: <Stream quina="tongo" />,
+  },
+  {
+    path: "/stream/explosiva",
+    element: <Stream quina="explosiva" />,
+  },
+  {
     path: "/stream",
     element: <Stream />,
   },
