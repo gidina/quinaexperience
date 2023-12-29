@@ -12,7 +12,6 @@ import Musical from "./pages/Musical";
 import Error from "./pages/Error";
 import Stream from "./pages/Stream";
 import Header from "./components/Header";
-import Player from "./pages/Player";
 
 const Dashboard = () => {
   return (
@@ -65,10 +64,6 @@ const router = createBrowserRouter([
   {
     path: "/stream",
     element: <Stream />,
-  },
-  {
-    path: "/player",
-    element: <Player />,
   },
   {
     path: "*",
