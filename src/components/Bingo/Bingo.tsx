@@ -83,6 +83,16 @@ const Bingo = ({
     return () => clearInterval(interval);
   }, [autoPlay]);
 
+  const save = () => {
+    console.log("SAVED!", drawedNumbers);
+    const csv = JSON.stringify(drawedNumbers.join("\n"));
+    localStorage.setItem(`uuhquinaexperience-${Date.now()}`, csv);
+  }
+
+  useEffect(() => {
+    save();
+  }, [drawedNumbers, save]);
+
   const getDraw = (newDraw?: number) => {
     const getDrawByMode = isManualMode
       ? getDrawManual(newDraw)
