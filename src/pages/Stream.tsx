@@ -6,12 +6,13 @@ import fileExplosivaBomb from "../assets/grand_prix_intro_23.mp3";
 import { FaBomb } from "react-icons/fa";
 
 interface Stream {
-  quina?: "tongo" | "explosiva"
-};
+  quina?: "tongo" | "explosiva";
+}
 
 const Stream = ({ quina }: Stream) => {
   const [cameras, setCameras] = useState<MediaDeviceInfo[]>([]);
-  const [selectedCamera, setSelectedCamera] = useState<MediaDeviceInfo["deviceId"]>();
+  const [selectedCamera, setSelectedCamera] =
+    useState<MediaDeviceInfo["deviceId"]>();
   const [hasExploded, setHasExploded] = useState(false);
 
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -23,27 +24,29 @@ const Stream = ({ quina }: Stream) => {
     }
 
     navigator.mediaDevices
-    .enumerateDevices()
-    .then((devices) => {
-      const videoDevices = devices.filter(device => device.kind === "videoinput");
+      .enumerateDevices()
+      .then((devices) => {
+        const videoDevices = devices.filter(
+          (device) => device.kind === "videoinput"
+        );
 
-      setCameras(videoDevices);
+        setCameras(videoDevices);
 
-      var constraints = {
-        deviceId: selectedCamera || videoDevices[0]?.deviceId
-        // advanced: { deviceId: selectedCamera }
-        // width: { min: 1024, ideal: 1280, max: 1920 },
-        // height: { min: 776, ideal: 720, max: 1080 },
-        // deviceId: { exact: selectedCamera },
-      };
-      return navigator.mediaDevices.getUserMedia({ video: constraints });
-    })
-    .then((stream) => {
-      videoRef.current.srcObject = stream;
-    })
-    .catch((err) => {
-      console.error(`${err.name}: ${err.message}`);
-    });
+        var constraints = {
+          deviceId: selectedCamera || videoDevices[0]?.deviceId,
+          // advanced: { deviceId: selectedCamera }
+          // width: { min: 1024, ideal: 1280, max: 1920 },
+          // height: { min: 776, ideal: 720, max: 1080 },
+          // deviceId: { exact: selectedCamera },
+        };
+        return navigator.mediaDevices.getUserMedia({ video: constraints });
+      })
+      .then((stream) => {
+        videoRef.current.srcObject = stream;
+      })
+      .catch((err) => {
+        console.error(`${err.name}: ${err.message}`);
+      });
   }, [selectedCamera]);
 
   // useEffect(() => {
@@ -156,14 +159,17 @@ const Stream = ({ quina }: Stream) => {
       <main className="p-12">
         <div className="flex flex-col gap-4">
           <div className="flex gap-4 items-center">
-            <select onChange={(e) => setSelectedCamera(e.target.value)} value={selectedCamera}>
-              {cameras.map(camera => <option key={camera.deviceId} value={camera.deviceId}>{camera.label}</option>)}
-            </select>
-            <audio
-              preload="metadata"
-              controls
-              loop
+            <select
+              onChange={(e) => setSelectedCamera(e.target.value)}
+              value={selectedCamera}
             >
+              {cameras.map((camera) => (
+                <option key={camera.deviceId} value={camera.deviceId}>
+                  {camera.label}
+                </option>
+              ))}
+            </select>
+            <audio preload="metadata" controls loop>
               <source type="audio/mpeg" src={fileTongo} />
             </audio>
             <button
@@ -203,24 +209,30 @@ const Stream = ({ quina }: Stream) => {
       <main className="p-12">
         <div className="flex flex-col gap-4">
           <div className="flex gap-4 items-center">
-            <select onChange={(e) => setSelectedCamera(e.target.value)} value={selectedCamera}>
-              {cameras.map(camera => <option key={camera.deviceId} value={camera.deviceId}>{camera.label}</option>)}
+            <select
+              onChange={(e) => setSelectedCamera(e.target.value)}
+              value={selectedCamera}
+            >
+              {cameras.map((camera) => (
+                <option key={camera.deviceId} value={camera.deviceId}>
+                  {camera.label}
+                </option>
+              ))}
             </select>
-            {!hasExploded && <audio
-              preload="metadata"
-              controls
-              loop
-            >
-              <source type="audio/mpeg" src={fileExplosiva} />
-            </audio>}
-            {hasExploded && <audio
-              preload="metadata"
-              controls
-              autoPlay
-            >
-              <source type="audio/mpeg" src={fileExplosivaBomb} />
-            </audio>}
-            <FaBomb onClick={() => setHasExploded(true)} className="hover:cursor-pointer" />
+            {!hasExploded && (
+              <audio preload="metadata" controls loop>
+                <source type="audio/mpeg" src={fileExplosiva} />
+              </audio>
+            )}
+            {hasExploded && (
+              <audio preload="metadata" controls autoPlay>
+                <source type="audio/mpeg" src={fileExplosivaBomb} />
+              </audio>
+            )}
+            <FaBomb
+              onClick={() => setHasExploded(true)}
+              className="transition-transform hover:scale-125 hover:cursor-pointer"
+            />
             <button
               onClick={onTakePhotoButtonClick}
               className="rounded-md bg-red-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
@@ -257,8 +269,15 @@ const Stream = ({ quina }: Stream) => {
     <main className="p-12">
       <div className="flex flex-col gap-4">
         <div className="flex gap-4 items-center">
-          <select onChange={(e) => setSelectedCamera(e.target.value)} value={selectedCamera}>
-            {cameras.map(camera => <option key={camera.deviceId} value={camera.deviceId}>{camera.label}</option>)}
+          <select
+            onChange={(e) => setSelectedCamera(e.target.value)}
+            value={selectedCamera}
+          >
+            {cameras.map((camera) => (
+              <option key={camera.deviceId} value={camera.deviceId}>
+                {camera.label}
+              </option>
+            ))}
           </select>
           <button
             onClick={onTakePhotoButtonClick}
